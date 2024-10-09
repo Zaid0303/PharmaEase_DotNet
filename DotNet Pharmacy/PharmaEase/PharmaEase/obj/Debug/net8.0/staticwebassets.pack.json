@@ -1,0 +1,745 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PharmaEase.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PharmaEase.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\css\\bootstrap1.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap1.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\css\\colors\\default.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\colors\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\css\\metisMenu.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\metisMenu.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\css\\style1.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style1.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\banner.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\card.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\card2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\card2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\client_img.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\client_img.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\diamond.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\diamond.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\icon\\bell.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\icon\\bell.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\icon\\cap.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\icon\\cap.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\icon\\icon_search.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\icon\\icon_search.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\icon\\man.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\icon\\man.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\icon\\msg.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\icon\\msg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\icon\\pharma.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\icon\\pharma.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\icon\\wheel.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\icon\\wheel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\menu-icon\\1.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\menu-icon\\1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\menu-icon\\2.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\menu-icon\\2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\menu-icon\\3.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\menu-icon\\3.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\menu-icon\\4.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\menu-icon\\4.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\menu-icon\\5.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\menu-icon\\5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\menu-icon\\6.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\menu-icon\\6.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\menu-icon\\7.svg",
+      "PackagePath": "staticwebassets\\Admin\\img\\menu-icon\\7.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\messages\\1.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\messages\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\patient\\2.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\patient\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\patient\\3.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\patient\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\patient\\4.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\patient\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\patient\\5.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\patient\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\patient\\6.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\patient\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\patient\\pataint.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\patient\\pataint.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\progress\\design-progress-red.html",
+      "PackagePath": "staticwebassets\\Admin\\img\\progress\\design-progress-red.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\progress\\design-progress-yellow.html",
+      "PackagePath": "staticwebassets\\Admin\\img\\progress\\design-progress-yellow.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\progress\\progress-bg.html",
+      "PackagePath": "staticwebassets\\Admin\\img\\progress\\progress-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\staf\\1.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\staf\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\staf\\2.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\staf\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\staf\\3.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\staf\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\staf\\4.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\staf\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\img\\staf\\5.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\staf\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\js\\active_chart.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\active_chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\js\\bootstrap1.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\bootstrap1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\js\\chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\js\\jquery1-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\jquery1-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\js\\metisMenu.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\metisMenu.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\js\\popper1.min.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\popper1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\apex_chart\\apex_chart_list.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\apex_chart\\apex_chart_list.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\apex_chart\\apexchart_lists.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\apex_chart\\apexchart_lists.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\apex_chart\\apexcharts.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\apex_chart\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\apex_chart\\bar_active_1.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\apex_chart\\bar_active_1.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\chartjs\\chartjs_init.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\chartjs\\chartjs_init.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\chartlist\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\chartlist\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\count_up\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\count_up\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\count_up\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\count_up\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\css\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\css\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\css\\responsive.dataTables.min.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\css\\responsive.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_asc.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\images\\sort_asc.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_asc_disabled.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\images\\sort_asc_disabled.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_both.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\images\\sort_both.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_desc.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\images\\sort_desc.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_desc_disabled.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\images\\sort_desc_disabled.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\jszip.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\datatable\\js\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\datatable\\js\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\gijgo\\gijgo.min.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\gijgo\\gijgo.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\gijgo\\gijgo.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\gijgo\\gijgo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\jquery-sparkline\\spactkine_init.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\jquery-sparkline\\spactkine_init.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\material_icon\\MaterialIcons-Regular.ttf",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\material_icon\\MaterialIcons-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\material_icon\\material-icons.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\material_icon\\material-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\material_icon\\material-icons.woff",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\material_icon\\material-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\morris\\morris.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\morris\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\niceselect\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\niceselect\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\niceselect\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\niceselect\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\owl_carousel\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\owl_carousel\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\owl_carousel\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\owl_carousel\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\owl_carousel\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\owl_carousel\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\progressbar\\jquery.barfiller.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\progressbar\\jquery.barfiller.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\swiper_slider\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\swiper_slider\\css\\swiper.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\swiper_slider\\js\\swiper.min.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\swiper_slider\\js\\swiper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\tagsinput\\tagsinput.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\tagsinput\\tagsinput.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\tagsinput\\tagsinput.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\tagsinput\\tagsinput.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\text_editor\\fonts\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.ttf",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\text_editor\\fonts\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.woff",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\text_editor\\fonts\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\text_editor\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\text_editor\\summernote-bs4.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\text_editor\\summernote-bs4.js",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\text_editor\\summernote-bs4.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.woff"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\themefy_icon\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\Admin\\vendors\\themefy_icon\\themify-icons.css",
+      "PackagePath": "staticwebassets\\Admin\\vendors\\themefy_icon\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Zaid\\Desktop\\DotNet Pharmacy\\PharmaEase\\PharmaEase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PharmaEase.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PharmaEase.props",
+      "PackagePath": "build\\PharmaEase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PharmaEase.props",
+      "PackagePath": "buildMultiTargeting\\PharmaEase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PharmaEase.props",
+      "PackagePath": "buildTransitive\\PharmaEase.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
