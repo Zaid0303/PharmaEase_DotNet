@@ -136,23 +136,50 @@ namespace DotNet_Project.Controllers
         [HttpGet]
         public IActionResult EditCat(int Id)
         {
-            var deletekadata = db.Categories.Find(Id);
-            return View(deletekadata);
+            var category = db.Categories.Find(Id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
         }
         [HttpPost]
-        public IActionResult EditCat(Category cg)
+        public IActionResult EditCat(Category cg, IFormFile file, string catid)
         {
             if (ModelState.IsValid)
             {
-                db.Categories.Update(cg);
-                db.SaveChanges();
+                var dbimg = "";
+                if (file != null && file.Length > 0)
+                {
+                    var imageName = Path.GetFileName(file.FileName);
+                    string imagePath = Path.Combine(HttpContext.Request.PathBase.Value, "wwwroot/Image/Cat_img/");
+                    string imagevalue = Path.Combine(imagePath, imageName);
+                    using (var stream = new FileStream(imagevalue, FileMode.Create))
+                    {
+                        file.CopyTo(stream);
+                    }
+                    dbimg = Path.Combine("/Image/Cat_img/", imageName);
+                    cg.Image = dbimg;
+                    db.Categories.Update(cg);
+                    db.SaveChanges();
+                }
+                else {
+                    cg.Image = catid;
+                    db.Categories.Update(cg);
+                    db.SaveChanges();
 
+                }
             }
+                return View();
 
-            return View();
         }
+
+        //-------- Admin Category End --------//
+
+        //-------- Admin Category End --------//
         //-------- Admin Category End --------//
 
 
     }
+
 }

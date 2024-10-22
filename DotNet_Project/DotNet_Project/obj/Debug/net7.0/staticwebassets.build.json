@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cAVTxSJq70Nf/12JZKrADt+9J6xTYOGCqr6n0ezJYf4=",
+  "Hash": "/gMpsf2Bs8o8hKKDTkvlTY3lY1CBgS81zFZ+GOShln4=",
   "Source": "DotNet_Project",
   "BasePath": "_content/DotNet_Project",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DotNet_Project\\wwwroot",
       "Source": "DotNet_Project",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DotNet_Project.styles.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DotNet_Project.styles.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "DotNet_Project.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DotNet_Project.styles.css"
+      "OriginalItemSpec": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\bundle\\DotNet_Project.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DotNet_Project.bundle.scp.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DotNet_Project.bundle.scp.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "DotNet_Project.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DotNet_Project.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DotNet_Project.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\css\\bootstrap1.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\css\\bootstrap1.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/css/bootstrap1.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\css\\bootstrap1.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\css\\colors\\default.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\css\\colors\\default.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/css/colors/default.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\css\\colors\\default.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\css\\metisMenu.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\css\\metisMenu.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/css/metisMenu.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\css\\metisMenu.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\css\\style1.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\css\\style1.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/css/style1.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\css\\style1.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\banner.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\banner.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/banner.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\banner.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\card.jpg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\card.jpg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/card.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\card.jpg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\card2.jpg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\card2.jpg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/card2.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\card2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\client_img.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\client_img.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/client_img.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\client_img.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\diamond.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\diamond.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/diamond.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\diamond.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\bell.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\bell.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/icon/bell.svg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\icon\\bell.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\cap.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\cap.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/icon/cap.svg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\icon\\cap.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\icon_search.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\icon_search.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/icon/icon_search.svg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\icon\\icon_search.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\man.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\man.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/icon/man.svg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\icon\\man.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\msg.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\msg.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/icon/msg.svg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\icon\\msg.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\pharma.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\pharma.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/icon/pharma.svg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\icon\\pharma.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\wheel.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\icon\\wheel.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/icon/wheel.svg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\icon\\wheel.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\logo.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\logo.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/logo.png",
       "AssetKind": "All",
@@ -378,10 +378,48 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\1.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\logo1.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Admin/img/logo1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\img\\logo1.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\logo2.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Admin/img/logo2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin\\img\\logo2.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\1.svg",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/menu-icon/1.svg",
       "AssetKind": "All",
@@ -397,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\menu-icon\\1.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\2.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\2.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/menu-icon/2.svg",
       "AssetKind": "All",
@@ -416,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\menu-icon\\2.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\3.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\3.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/menu-icon/3.svg",
       "AssetKind": "All",
@@ -435,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\menu-icon\\3.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\4.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\4.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/menu-icon/4.svg",
       "AssetKind": "All",
@@ -454,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\menu-icon\\4.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\5.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\5.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/menu-icon/5.svg",
       "AssetKind": "All",
@@ -473,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\menu-icon\\5.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\6.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\6.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/menu-icon/6.svg",
       "AssetKind": "All",
@@ -492,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\menu-icon\\6.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\7.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\menu-icon\\7.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/menu-icon/7.svg",
       "AssetKind": "All",
@@ -511,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\menu-icon\\7.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\messages\\1.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\messages\\1.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/messages/1.png",
       "AssetKind": "All",
@@ -530,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\messages\\1.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\2.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\2.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/patient/2.png",
       "AssetKind": "All",
@@ -549,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\patient\\2.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\3.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\3.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/patient/3.png",
       "AssetKind": "All",
@@ -568,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\patient\\3.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\4.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\4.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/patient/4.png",
       "AssetKind": "All",
@@ -587,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\patient\\4.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\5.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\5.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/patient/5.png",
       "AssetKind": "All",
@@ -606,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\patient\\5.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\6.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\6.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/patient/6.png",
       "AssetKind": "All",
@@ -625,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\patient\\6.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\pataint.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\patient\\pataint.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/patient/pataint.png",
       "AssetKind": "All",
@@ -644,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\patient\\pataint.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\progress\\design-progress-red.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\progress\\design-progress-red.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/progress/design-progress-red.html",
       "AssetKind": "All",
@@ -663,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\progress\\design-progress-red.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\progress\\design-progress-yellow.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\progress\\design-progress-yellow.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/progress/design-progress-yellow.html",
       "AssetKind": "All",
@@ -682,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\progress\\design-progress-yellow.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\progress\\progress-bg.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\progress\\progress-bg.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/progress/progress-bg.html",
       "AssetKind": "All",
@@ -701,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\progress\\progress-bg.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\1.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\1.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/staf/1.png",
       "AssetKind": "All",
@@ -720,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\staf\\1.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\2.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\2.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/staf/2.png",
       "AssetKind": "All",
@@ -739,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\staf\\2.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\3.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\3.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/staf/3.png",
       "AssetKind": "All",
@@ -758,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\staf\\3.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\4.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\4.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/staf/4.png",
       "AssetKind": "All",
@@ -777,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\staf\\4.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\5.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\img\\staf\\5.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/img/staf/5.png",
       "AssetKind": "All",
@@ -796,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\img\\staf\\5.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\active_chart.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\active_chart.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/js/active_chart.js",
       "AssetKind": "All",
@@ -815,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\active_chart.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\bootstrap1.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\bootstrap1.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/js/bootstrap1.min.js",
       "AssetKind": "All",
@@ -834,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\bootstrap1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\chart.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\chart.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/js/chart.min.js",
       "AssetKind": "All",
@@ -853,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\custom.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\custom.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/js/custom.js",
       "AssetKind": "All",
@@ -872,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\jquery1-3.4.1.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\jquery1-3.4.1.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/js/jquery1-3.4.1.min.js",
       "AssetKind": "All",
@@ -891,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\jquery1-3.4.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\metisMenu.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\metisMenu.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/js/metisMenu.js",
       "AssetKind": "All",
@@ -910,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\metisMenu.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\popper1.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\js\\popper1.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/js/popper1.min.js",
       "AssetKind": "All",
@@ -929,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\js\\popper1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\apex_chart\\apex_chart_list.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\apex_chart\\apex_chart_list.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/apex_chart/apex_chart_list.js",
       "AssetKind": "All",
@@ -948,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\apex_chart\\apex_chart_list.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\apex_chart\\apexchart_lists.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\apex_chart\\apexchart_lists.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/apex_chart/apexchart_lists.js",
       "AssetKind": "All",
@@ -967,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\apex_chart\\apexchart_lists.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\apex_chart\\apexcharts.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\apex_chart\\apexcharts.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/apex_chart/apexcharts.js",
       "AssetKind": "All",
@@ -986,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\apex_chart\\apexcharts.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\apex_chart\\bar_active_1.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\apex_chart\\bar_active_1.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/apex_chart/bar_active_1.js",
       "AssetKind": "All",
@@ -1005,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\apex_chart\\bar_active_1.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\chartjs\\chartjs_init.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\chartjs\\chartjs_init.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/chartjs/chartjs_init.js",
       "AssetKind": "All",
@@ -1024,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\chartjs\\chartjs_init.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\chartlist\\Chart.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\chartlist\\Chart.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/chartlist/Chart.min.js",
       "AssetKind": "All",
@@ -1043,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\chartlist\\Chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\count_up\\jquery.counterup.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\count_up\\jquery.counterup.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/count_up/jquery.counterup.min.js",
       "AssetKind": "All",
@@ -1062,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\count_up\\jquery.counterup.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\count_up\\jquery.waypoints.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\count_up\\jquery.waypoints.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/count_up/jquery.waypoints.min.js",
       "AssetKind": "All",
@@ -1081,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\count_up\\jquery.waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\css\\buttons.dataTables.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\css\\buttons.dataTables.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/css/buttons.dataTables.min.css",
       "AssetKind": "All",
@@ -1100,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\css\\buttons.dataTables.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\css\\jquery.dataTables.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\css\\jquery.dataTables.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/css/jquery.dataTables.min.css",
       "AssetKind": "All",
@@ -1119,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\css\\jquery.dataTables.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\css\\responsive.dataTables.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\css\\responsive.dataTables.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/css/responsive.dataTables.min.css",
       "AssetKind": "All",
@@ -1138,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\css\\responsive.dataTables.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_asc.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_asc.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/images/sort_asc.html",
       "AssetKind": "All",
@@ -1157,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\images\\sort_asc.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_asc_disabled.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_asc_disabled.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/images/sort_asc_disabled.html",
       "AssetKind": "All",
@@ -1176,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\images\\sort_asc_disabled.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_both.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_both.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/images/sort_both.html",
       "AssetKind": "All",
@@ -1195,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\images\\sort_both.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_desc.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_desc.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/images/sort_desc.html",
       "AssetKind": "All",
@@ -1214,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\images\\sort_desc.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_desc_disabled.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\images\\sort_desc_disabled.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/images/sort_desc_disabled.html",
       "AssetKind": "All",
@@ -1233,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\images\\sort_desc_disabled.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.flash.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.flash.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/buttons.flash.min.js",
       "AssetKind": "All",
@@ -1252,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\buttons.flash.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.html5.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.html5.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/buttons.html5.min.js",
       "AssetKind": "All",
@@ -1271,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\buttons.html5.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.print.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\buttons.print.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/buttons.print.min.js",
       "AssetKind": "All",
@@ -1290,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\buttons.print.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\dataTables.buttons.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\dataTables.buttons.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/dataTables.buttons.min.js",
       "AssetKind": "All",
@@ -1309,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\dataTables.buttons.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\dataTables.responsive.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\dataTables.responsive.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/dataTables.responsive.min.js",
       "AssetKind": "All",
@@ -1328,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\dataTables.responsive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\jquery.dataTables.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\jquery.dataTables.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/jquery.dataTables.min.js",
       "AssetKind": "All",
@@ -1347,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\jquery.dataTables.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\jszip.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\jszip.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/jszip.min.js",
       "AssetKind": "All",
@@ -1366,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\jszip.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\pdfmake.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\pdfmake.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/pdfmake.min.js",
       "AssetKind": "All",
@@ -1385,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\pdfmake.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\vfs_fonts.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\datatable\\js\\vfs_fonts.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/datatable/js/vfs_fonts.js",
       "AssetKind": "All",
@@ -1404,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\datatable\\js\\vfs_fonts.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\css\\all.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\css\\all.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/css/all.min.css",
       "AssetKind": "All",
@@ -1423,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -1442,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-brands-400.html",
       "AssetKind": "All",
@@ -1461,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -1480,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -1499,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -1518,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400d41d.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400d41d.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-brands-400d41d.eot",
       "AssetKind": "All",
@@ -1537,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-brands-400d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -1556,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-regular-400.html",
       "AssetKind": "All",
@@ -1575,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -1594,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -1613,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1632,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400d41d.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400d41d.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-regular-400d41d.eot",
       "AssetKind": "All",
@@ -1651,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-regular-400d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -1670,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-solid-900.html",
       "AssetKind": "All",
@@ -1689,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -1708,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -1727,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -1746,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900d41d.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900d41d.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/font_awesome/webfonts/fa-solid-900d41d.eot",
       "AssetKind": "All",
@@ -1765,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\font_awesome\\webfonts\\fa-solid-900d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\gijgo\\gijgo.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\gijgo\\gijgo.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/gijgo/gijgo.min.css",
       "AssetKind": "All",
@@ -1784,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\gijgo\\gijgo.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\gijgo\\gijgo.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\gijgo\\gijgo.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/gijgo/gijgo.min.js",
       "AssetKind": "All",
@@ -1803,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\gijgo\\gijgo.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\jquery-sparkline\\jquery.sparkline.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\jquery-sparkline\\jquery.sparkline.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/jquery-sparkline/jquery.sparkline.min.js",
       "AssetKind": "All",
@@ -1822,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\jquery-sparkline\\jquery.sparkline.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\jquery-sparkline\\spactkine_init.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\jquery-sparkline\\spactkine_init.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/jquery-sparkline/spactkine_init.js",
       "AssetKind": "All",
@@ -1841,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\jquery-sparkline\\spactkine_init.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\material_icon\\material-icons.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\material_icon\\material-icons.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/material_icon/material-icons.css",
       "AssetKind": "All",
@@ -1860,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\material_icon\\material-icons.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\material_icon\\material-icons.woff",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\material_icon\\material-icons.woff",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/material_icon/material-icons.woff",
       "AssetKind": "All",
@@ -1879,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\material_icon\\material-icons.woff"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\material_icon\\MaterialIcons-Regular.ttf",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\material_icon\\MaterialIcons-Regular.ttf",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/material_icon/MaterialIcons-Regular.ttf",
       "AssetKind": "All",
@@ -1898,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\material_icon\\MaterialIcons-Regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\morris\\morris.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\morris\\morris.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/morris/morris.css",
       "AssetKind": "All",
@@ -1917,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\morris\\morris.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\niceselect\\css\\nice-select.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\niceselect\\css\\nice-select.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/niceselect/css/nice-select.css",
       "AssetKind": "All",
@@ -1936,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\niceselect\\css\\nice-select.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\niceselect\\js\\jquery.nice-select.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\niceselect\\js\\jquery.nice-select.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/niceselect/js/jquery.nice-select.min.js",
       "AssetKind": "All",
@@ -1955,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\niceselect\\js\\jquery.nice-select.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\owl_carousel\\css\\owl.carousel.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\owl_carousel\\css\\owl.carousel.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/owl_carousel/css/owl.carousel.css",
       "AssetKind": "All",
@@ -1974,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\owl_carousel\\css\\owl.carousel.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\owl_carousel\\css\\owl.video.play.html",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\owl_carousel\\css\\owl.video.play.html",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/owl_carousel/css/owl.video.play.html",
       "AssetKind": "All",
@@ -1993,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\owl_carousel\\css\\owl.video.play.html"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\owl_carousel\\js\\owl.carousel.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\owl_carousel\\js\\owl.carousel.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/owl_carousel/js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -2012,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\owl_carousel\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\progressbar\\jquery.barfiller.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\progressbar\\jquery.barfiller.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/progressbar/jquery.barfiller.js",
       "AssetKind": "All",
@@ -2031,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\progressbar\\jquery.barfiller.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\select2\\css\\select2.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\select2\\css\\select2.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/select2/css/select2.min.css",
       "AssetKind": "All",
@@ -2050,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\select2\\css\\select2.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\swiper_slider\\css\\swiper.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\swiper_slider\\css\\swiper.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/swiper_slider/css/swiper.min.css",
       "AssetKind": "All",
@@ -2069,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\swiper_slider\\css\\swiper.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\swiper_slider\\js\\swiper.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\swiper_slider\\js\\swiper.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/swiper_slider/js/swiper.min.js",
       "AssetKind": "All",
@@ -2088,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\swiper_slider\\js\\swiper.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\tagsinput\\tagsinput.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\tagsinput\\tagsinput.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/tagsinput/tagsinput.css",
       "AssetKind": "All",
@@ -2107,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\tagsinput\\tagsinput.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\tagsinput\\tagsinput.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\tagsinput\\tagsinput.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/tagsinput/tagsinput.js",
       "AssetKind": "All",
@@ -2126,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\tagsinput\\tagsinput.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/text_editor/fonts/summernote.eot",
       "AssetKind": "All",
@@ -2145,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.ttf",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.ttf",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/text_editor/fonts/summernote.ttf",
       "AssetKind": "All",
@@ -2164,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.ttf"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.woff",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.woff",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/text_editor/fonts/summernote.woff",
       "AssetKind": "All",
@@ -2183,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\text_editor\\fonts\\summernote.woff"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\summernote-bs4.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\summernote-bs4.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/text_editor/summernote-bs4.css",
       "AssetKind": "All",
@@ -2202,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\text_editor\\summernote-bs4.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\summernote-bs4.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\text_editor\\summernote-bs4.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/text_editor/summernote-bs4.js",
       "AssetKind": "All",
@@ -2221,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\text_editor\\summernote-bs4.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/themefy_icon/fonts/themify9f24.eot",
       "AssetKind": "All",
@@ -2240,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.svg",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.svg",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/themefy_icon/fonts/themify9f24.svg",
       "AssetKind": "All",
@@ -2259,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.svg"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.ttf",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.ttf",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/themefy_icon/fonts/themify9f24.ttf",
       "AssetKind": "All",
@@ -2278,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.ttf"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.woff",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.woff",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/themefy_icon/fonts/themify9f24.woff",
       "AssetKind": "All",
@@ -2297,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themify9f24.woff"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themifyd41d.eot",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themifyd41d.eot",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/themefy_icon/fonts/themifyd41d.eot",
       "AssetKind": "All",
@@ -2316,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\themefy_icon\\fonts\\themifyd41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\themify-icons.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Admin\\vendors\\themefy_icon\\themify-icons.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Admin/vendors/themefy_icon/themify-icons.css",
       "AssetKind": "All",
@@ -2335,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\Admin\\vendors\\themefy_icon\\themify-icons.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\css\\site.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2354,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\favicon.ico",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2373,10 +2411,162 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\Tablet.png",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\Capsule.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Cat_img/Capsule.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\Capsule.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\first-aid-kit.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Cat_img/first-aid-kit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\first-aid-kit.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\hand-sanitizer.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Cat_img/hand-sanitizer.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\hand-sanitizer.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\healthcare.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Cat_img/healthcare.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\healthcare.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\injection.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Cat_img/injection.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\injection.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\Liquid.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Cat_img/Liquid.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\Liquid.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\personal-care.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Cat_img/personal-care.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\personal-care.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\supplies.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Cat_img/supplies.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\supplies.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Cat_img\\Tablet.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "Image/Cat_img/Tablet.png",
       "AssetKind": "All",
@@ -2392,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\Image\\Cat_img\\Tablet.png"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\js\\site.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2411,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2430,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2449,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2468,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2487,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2506,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2525,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2544,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2563,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2582,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2601,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2620,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2639,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2658,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2677,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2696,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2715,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2734,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2753,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2772,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2791,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2810,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2829,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2848,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2867,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2886,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2905,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2924,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2943,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2962,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2981,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3000,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3019,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3038,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3057,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3076,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3095,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3114,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3133,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3152,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3171,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3190,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3209,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3228,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3247,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3266,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3285,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3304,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3323,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3342,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3361,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3380,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3399,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3418,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3437,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3456,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3475,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
       "BasePath": "_content/DotNet_Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

@@ -1,14 +1,14 @@
 ﻿@model DotNet_Project.Models.Category
 
 @{
-    ViewData["Title"] = "AddCat";
+    ViewData["Title"] = "EditCat";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="main_content_iner">
     <div class="container-fluid p-0">
-        <form asp-action="AddCat" enctype="multipart/form-data">
+        <form asp-action="EditCat" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
             <div class="row">
                 <div class="col-md-12 col-12">
                     <div class="white_box mb_30">
@@ -23,15 +23,23 @@
 
                         <div class="row">
                             <!-- Title -->
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-4 mb-3">
                                 <label asp-for="Name" class="form-label" for="productTitle">Category Name</label>
                                 <input asp-for="Name" type="text" class="form-control" id="productTitle"
                                        placeholder="Enter Category Name" required>
-                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+
+                            <!-- Old Image Preview -->
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label">Current Category Image</label>
+                                <div class="product-image-preview position-relative mb-3">
+                                    <!-- Display Old Image -->
+                                    <img id="oldImagePreview" src="@Url.Content(Model.Image)" alt="Old Product Image" class="img-fluid rounded">
+                                </div>
                             </div>
 
                             <!-- Product Image -->
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-4 mb-3">
                                 <label asp-for="Image" class="form-label">Category Image</label>
                                 <div class="product-image-upload">
                                     <!-- Image Preview Container -->
@@ -96,44 +104,11 @@
             });
         </script>
 
+
+    </div>
+</div>
         @section Scripts {
             @{
                 await Html.RenderPartialAsync("_ValidationScriptsPartial");
             }
         }
-
-    </div>
-</div>
-
-@* <h1>AddCat</h1>
-
-<h4>Category</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="AddCat">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Image" class="control-label"></label>
-                <input asp-for="Image" class="form-control" />
-                <span asp-validation-for="Image" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="ShowCat">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-} *@

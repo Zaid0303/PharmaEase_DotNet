@@ -1,7 +1,7 @@
-﻿@model IEnumerable<DotNet_Project.Models.Role>
+﻿@model IEnumerable<DotNet_Project.Models.Category>
 
 @{
-    ViewData["Title"] = "ShowRole";
+    ViewData["Title"] = "ShowCat";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -15,7 +15,7 @@
             <div class="col-12">
                 <div class="QA_section">
                     <div class="white_box_tittle list_header">
-                        <h4>Show Roles</h4>
+                        <h4>Show Categories</h4>
                         <div class="box_right d-flex lms_block">
                             <div class="serach_field_2">
                                 <div class="search_inner">
@@ -28,7 +28,7 @@
                                 </div>
                             </div>
                             <div class="add_button ms-2">
-                                <a asp-action="AddRole" class="btn_1">Add New Role</a>
+                                <a asp-action="AddCat" class="btn_1">Add New Category</a>
                             </div>
                         </div>
                     </div>
@@ -36,22 +36,31 @@
 
                         <table class="table lms_table_active">
                             <thead>
-                            <th>
-                                    @Html.DisplayNameFor(model => model.Name)
-                            </th>
-                            <th>Status</th>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Name)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Image)
+                                    </th>
+                                    <th>Status</th>
+                                </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in Model) {
-                                <tr>
-                                    <td>
-                                        @Html.DisplayFor(modelItem => item.Name)
-                                    </td>
-                                    <td>
-                                        <a asp-action="EditRole" asp-route-id="@item.Id" class="btn btn-success status_btn2 text-center">Edit</a>
-                                        <a asp-action="DeleteRole" asp-route-id="@item.Id" class="btn btn-danger status_btn2 text-center">Delete</a>
-                                    </td>
-                                </tr>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Name)
+                                        </td>
+                                        <td>
+                                            <img src="@Html.DisplayFor(modelItem => item.Image)" alt="Category Image" />
+                                        </td>
+                                        <td>
+                                            <a asp-action="EditCat" asp-route-id="@item.Id" class="btn btn-success status_btn2 text-center">Edit</a>
+                                            <a asp-action="DeleteCat" asp-route-id="@item.Id" class="btn btn-danger status_btn2 text-center">Delete</a>
+                                        </td>
+                                    </tr>
                                 }
                             </tbody>
                         </table>
@@ -81,32 +90,4 @@
 <script src="~/Admin/vendors/datatable/js/buttons.html5.min.js"></script>
 <script src="~/Admin/vendors/datatable/js/buttons.print.min.js"></script>
 <script src="~/Admin/js/chart.min.js"></script>
-@* <h1>ShowRole</h1>
 
-<p>
-    <a asp-action="AddRole">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                <a asp-action="EditRole" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="DeleteRole" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table> *@

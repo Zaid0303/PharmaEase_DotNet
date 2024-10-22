@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Image\Cat_img\" />
+    <Folder Include="wwwroot\Image\Pro_img\" />
   </ItemGroup>
 
 </Project>

@@ -11298,11 +11298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\DotNet_Project.csproj",
+      "projectUniqueName": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\DotNet_Project.csproj",
       "projectName": "DotNet_Project",
-      "projectPath": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\DotNet_Project.csproj",
+      "projectPath": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\DotNet_Project.csproj",
       "packagesPath": "C:\\Users\\Zaid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\obj\\",
+      "outputPath": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zaid\\AppData\\Roaming\\NuGet\\NuGet.Config",

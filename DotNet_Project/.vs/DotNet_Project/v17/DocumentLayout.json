@@ -1,64 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\",
+  "WorkspaceRootPath": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\views\\admin\\showcat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\showcat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\admin\\addcat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\addcat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_22TIADC_SQLEXPRESS/Pharmacy/True/SqlTable/dbo.Category.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\admin\\showrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\views\\admin\\showrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\showrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\views\\admin\\editcat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\editcat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\admin\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_22TIADC_SQLEXPRESS/Pharmacy/True/SqlTable/dbo.Role.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\shared\\admin_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\shared\\admin_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\shared\\admin_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\views\\shared\\admin_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\shared\\admin_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\views\\shared\\admin_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\shared\\admin_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\views\\shared\\admin_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\shared\\admin_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\users\\zaid\\desktop\\dotnet_project\\dotnet_project\\models\\pharmacycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\models\\pharmacycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|c:\\github desktop\\pharmaease_dotnet\\dotnet_project\\dotnet_project\\views\\admin\\addcat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BF66A747-7688-4247-8E3B-B88044FC9616}|DotNet_Project\\DotNet_Project.csproj|solutionrelative:dotnet_project\\views\\admin\\addcat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,188 +55,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddCat.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\AddCat.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\AddCat.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\AddCat.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\AddCat.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAkAAAAhAAAAAAAAAA==",
+              "Title": "ShowRole.cshtml",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\ShowRole.cshtml",
+              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\ShowRole.cshtml",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\ShowRole.cshtml",
+              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\ShowRole.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T14:28:10.116Z",
+              "WhenOpened": "2024-10-22T17:27:53.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ShowRole.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\ShowRole.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\ShowRole.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\ShowRole.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\ShowRole.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAIBJwCcAAAA4AAAAAAAAAA==",
+              "Title": "Admin_Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Shared\\Admin_Sidebar.cshtml",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Sidebar.cshtml",
+              "RelativeToolTip": "DotNet_Project\\Views\\Shared\\Admin_Sidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T10:18:41.824Z",
+              "WhenOpened": "2024-10-21T09:45:39.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddRole.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\AddRole.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\AddRole.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\AddRole.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\AddRole.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAACYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:56:14.039Z",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "DotNet_Project\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "DotNet_Project\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAswHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T18:30:15.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "DotNet_Project\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "DotNet_Project\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAgwGkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T09:54:24.914Z",
+              "Title": "ShowCat.cshtml",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\ShowCat.cshtml",
+              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\ShowCat.cshtml",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\ShowCat.cshtml",
+              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\ShowCat.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T17:15:06.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.Category.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_22TIADC_SQLEXPRESS/Pharmacy/True/SqlTable/dbo.Category.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/DESKTOP_22TIADC_SQLEXPRESS/Pharmacy/True/SqlTable/dbo.Category.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-20T14:52:14.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditRole.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\EditRole.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\EditRole.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\EditRole.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\EditRole.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Title": "EditCat.cshtml",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\EditCat.cshtml",
+              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\EditCat.cshtml",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\EditCat.cshtml",
+              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\EditCat.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T10:28:00.151Z",
+              "WhenOpened": "2024-10-21T08:06:12.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeleteRole.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\DeleteRole.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\DeleteRole.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Admin\\DeleteRole.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\DeleteRole.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAIBJwBkAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Admin_Footer.cshtml",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Footer.cshtml",
+              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Shared\\Admin_Footer.cshtml",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Footer.cshtml",
+              "RelativeToolTip": "DotNet_Project\\Views\\Shared\\Admin_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T10:23:26.957Z",
+              "WhenOpened": "2024-10-22T18:01:40.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGEAAAAAAAAAAIBJwGsAAAARAAAAAAAAAA==",
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\EditRole.cshtml",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\EditRole.cshtml",
+              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\EditRole.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:43:12.077Z",
+              "WhenOpened": "2024-10-21T08:07:58.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddRole.cshtml",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\AddRole.cshtml",
+              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\AddRole.cshtml",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\AddRole.cshtml",
+              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\AddRole.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T08:07:33.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "dbo.Role [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_22TIADC_SQLEXPRESS/Pharmacy/True/SqlTable/dbo.Role.sql",
-              "ToolTip": "dbo.Role [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-19T10:00:20.864Z"
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "DotNet_Project\\Models\\Job.cs",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Models\\Job.cs",
+              "RelativeToolTip": "DotNet_Project\\Models\\Job.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:51:39.029Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "AddCat.cshtml",
+              "DocumentMoniker": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\AddCat.cshtml",
+              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Admin\\AddCat.cshtml",
+              "ToolTip": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\Views\\Admin\\AddCat.cshtml",
+              "RelativeToolTip": "DotNet_Project\\Views\\Admin\\AddCat.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:51:39.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Admin_Footer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Footer.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Shared\\Admin_Footer.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Footer.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Shared\\Admin_Footer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:49:56.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Admin_Sidebar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Sidebar.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Shared\\Admin_Sidebar.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Sidebar.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Shared\\Admin_Sidebar.cshtml",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAwHIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:48:55.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Admin_Navbar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Navbar.cshtml",
-              "RelativeDocumentMoniker": "DotNet_Project\\Views\\Shared\\Admin_Navbar.cshtml",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Views\\Shared\\Admin_Navbar.cshtml",
-              "RelativeToolTip": "DotNet_Project\\Views\\Shared\\Admin_Navbar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T09:47:09.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DotNet_Project\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DotNet_Project\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T09:13:14.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PharmacyContext.cs",
-              "DocumentMoniker": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Models\\PharmacyContext.cs",
-              "RelativeDocumentMoniker": "DotNet_Project\\Models\\PharmacyContext.cs",
-              "ToolTip": "C:\\Users\\Zaid\\Desktop\\DotNet_Project\\DotNet_Project\\Models\\PharmacyContext.cs",
-              "RelativeToolTip": "DotNet_Project\\Models\\PharmacyContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T09:13:02.464Z",
+              "WhenOpened": "2024-10-21T08:01:48.373Z",
               "EditorCaption": ""
             }
           ]

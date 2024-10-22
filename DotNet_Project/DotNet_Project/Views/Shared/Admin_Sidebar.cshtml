@@ -4,7 +4,7 @@
 @{
     <nav class="sidebar">
         <div class="logo d-flex justify-content-between">
-            <a href="index.html"><img src="~/Admin/img/logo.png" alt></a>
+            <a href="index.html"><img src="~/Admin/img/logo2.png" alt="logo" height="50"></a>
             <div class="sidebar_close_icon d-lg-none">
                 <i class="ti-close"></i>
             </div>
@@ -33,6 +33,28 @@
                 <ul>
                     <li><a href="mail_box.html">Add Product</a></li>
                     <li><a href="chat.html">View Product</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <i class="fa fa-box"></i> <!-- Category Icon -->
+                    <span>Categories</span>
+                </a>
+                <ul>
+                    <li><a asp-action="AddCat">Add Category</a></li>
+                    <li><a asp-action="ShowCat">View Category</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <i class="fa fa-box"></i> <!-- Role Icon -->
+                    <span>Roles</span>
+                </a>
+                <ul>
+                    <li><a asp-action="AddRole">Add Role</a></li>
+                    <li><a asp-action="ShowRole">View Role</a></li>
                 </ul>
             </li>
 
