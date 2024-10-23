@@ -38,26 +38,14 @@ namespace DotNet_Project.Controllers
         }
 
         [HttpGet]
-        public IActionResult DeleteRole(int Id)
-        {
-
-            var deletekadata = db.Roles.Find(Id);
-            return View(deletekadata);
-        }
-
-        [HttpPost]
         public IActionResult DeleteRole(Role rg)
         {
 
-            if (ModelState.IsValid)
-            {
-
-                db.Roles.Remove(rg);
-                db.SaveChanges();
-
-            }
-            return View("ShowRole");
+            db.Roles.Remove(rg);
+            db.SaveChanges();
+            return RedirectToAction("ShowRole");
         }
+
 
         [HttpGet]
         public IActionResult EditRole(int Id)
@@ -112,35 +100,20 @@ namespace DotNet_Project.Controllers
         }
 
         [HttpGet]
-        public IActionResult DeleteCat(int Id)
-        {
-
-            var deletekadata = db.Categories.Find(Id);
-            return View(deletekadata);
-        }
-
-        [HttpPost]
         public IActionResult DeleteCat(Category cg)
         {
 
-            if (ModelState.IsValid)
-            {
+            db.Categories.Remove(cg);
+            db.SaveChanges();
+            return RedirectToAction("ShowCat");
 
-                db.Categories.Remove(cg);
-                db.SaveChanges();
-
-            }
-            return View("ShowCat");
         }
+
 
         [HttpGet]
         public IActionResult EditCat(int Id)
         {
             var category = db.Categories.Find(Id);
-            if (category == null)
-            {
-                return NotFound();
-            }
             return View(category);
         }
         [HttpPost]
@@ -170,7 +143,7 @@ namespace DotNet_Project.Controllers
 
                 }
             }
-                return View();
+                return RedirectToAction("ShowCat");
 
         }
 
