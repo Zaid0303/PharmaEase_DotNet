@@ -18,7 +18,16 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Image\Cat_img\" />
+    <Folder Include="wwwroot\Image\Job_img\" />
+    <Folder Include="wwwroot\Image\Company_img\" />
     <Folder Include="wwwroot\Image\Pro_img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\logo2.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

@@ -23,13 +23,11 @@ public partial class PharmacyContext : DbContext
 
     public virtual DbSet<Contact> Contacts { get; set; }
 
-    public virtual DbSet<Inventory> Inventories { get; set; }
-
     public virtual DbSet<Job> Jobs { get; set; }
 
     public virtual DbSet<Login> Logins { get; set; }
 
-    public virtual DbSet<Medicine> Medicines { get; set; }
+    public virtual DbSet<Product> Products { get; set; }
 
     public virtual DbSet<Quote> Quotes { get; set; }
 
@@ -102,21 +100,6 @@ public partial class PharmacyContext : DbContext
             entity.Property(e => e.Number).HasMaxLength(255);
         });
 
-        modelBuilder.Entity<Inventory>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__Inventor__3214EC07E34311A1");
-
-            entity.ToTable("Inventory");
-
-            entity.Property(e => e.Availability).HasMaxLength(255);
-            entity.Property(e => e.CId).HasColumnName("C_Id");
-            entity.Property(e => e.Description).HasColumnType("text");
-            entity.Property(e => e.Image).HasMaxLength(255);
-            entity.Property(e => e.Name).HasMaxLength(255);
-            entity.Property(e => e.Price).HasMaxLength(255);
-            entity.Property(e => e.Quantity).HasMaxLength(255);
-        });
-
         modelBuilder.Entity<Job>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Jobs__3214EC071674EC39");
@@ -130,6 +113,7 @@ public partial class PharmacyContext : DbContext
                 .HasMaxLength(255)
                 .HasColumnName("Emp_Type");
             entity.Property(e => e.Experience).HasMaxLength(255);
+            entity.Property(e => e.Image).HasMaxLength(255);
             entity.Property(e => e.Location).HasMaxLength(255);
             entity.Property(e => e.Qualification).HasMaxLength(255);
             entity.Property(e => e.Salary).HasMaxLength(255);
@@ -154,19 +138,23 @@ public partial class PharmacyContext : DbContext
                 .HasConstraintName("FK_Login_ToTable");
         });
 
-        modelBuilder.Entity<Medicine>(entity =>
+        modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Medicine__3214EC075F519F6A");
+            entity.HasKey(e => e.Id).HasName("PK__Product__3214EC0718575EB5");
 
-            entity.ToTable("Medicine");
+            entity.ToTable("Product");
 
-            entity.Property(e => e.Availability).HasMaxLength(255);
-            entity.Property(e => e.CId).HasColumnName("C_Id");
-            entity.Property(e => e.Description).HasColumnType("text");
-            entity.Property(e => e.Image).HasMaxLength(255);
-            entity.Property(e => e.Name).HasMaxLength(255);
-            entity.Property(e => e.Price).HasMaxLength(255);
-            entity.Property(e => e.Strength).HasMaxLength(255);
+            entity.Property(e => e.CId).HasColumnName("C_id");
+            entity.Property(e => e.Description).HasMaxLength(250);
+            entity.Property(e => e.Image).HasMaxLength(250);
+            entity.Property(e => e.Name).HasMaxLength(250);
+            entity.Property(e => e.Price).HasMaxLength(250);
+            entity.Property(e => e.Quantity).HasMaxLength(250);
+            entity.Property(e => e.Strength).HasMaxLength(250);
+
+            entity.HasOne(d => d.CIdNavigation).WithMany(p => p.Products)
+                .HasForeignKey(d => d.CId)
+                .HasConstraintName("FK_Product_ToTable");
         });
 
         modelBuilder.Entity<Quote>(entity =>

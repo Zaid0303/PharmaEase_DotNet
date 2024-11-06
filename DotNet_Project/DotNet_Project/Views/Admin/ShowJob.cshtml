@@ -1,0 +1,146 @@
+﻿@model IEnumerable<DotNet_Project.Models.Job>
+
+@{
+    ViewData["Title"] = "ShowJob";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/responsive.dataTables.min.css" />
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/buttons.dataTables.min.css" />
+
+<div class="main_content_iner ">
+    <div class="container-fluid p-0">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="QA_section">
+                    <div class="white_box_tittle list_header">
+                        <h4>Show Jobs</h4>
+                        <div class="box_right d-flex lms_block">
+                            <div class="serach_field_2">
+                                <div class="search_inner">
+                                    <form Active="#">
+                                        <div class="search_field">
+                                            <input type="text" placeholder="Search content here...">
+                                        </div>
+                                        <button type="submit"> <i class="ti-search"></i> </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="add_button ms-2">
+                                <a asp-action="AddJob" class="btn_1">Add New Job</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="QA_table mb_30">
+
+                        <table class="table lms_table_active">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Title)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Department)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Location)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.EmpType)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Description)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Qualification)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Experience)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Skills)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.ApplicationDateTime)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Salary)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Image)
+                                    </th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Title)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Department)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Location)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.EmpType)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Description)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Qualification)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Experience)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Skills)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.ApplicationDateTime)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Salary)
+                                        </td>
+                                        <td>
+                                            <img src="@Html.DisplayFor(modelItem => item.Image)" alt="Job Image" />
+                                        </td>
+                                        <td>
+                                            <a asp-action="EditJob" asp-route-id="@item.Id" class="btn btn-success status_btn2 text-center">Edit</a>
+                                            <a asp-action="DeleteJob" asp-route-id="@item.Id" class="btn btn-danger status_btn2 text-center">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        <style>
+                            .status_btn2 {
+                                border-radius: 30px;
+                                color: white !important;
+                                font-size: 10px;
+                                height: 35px;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Admin/vendors/datatable/js/jquery.dataTables.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/dataTables.responsive.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/dataTables.buttons.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.flash.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/jszip.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/pdfmake.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/vfs_fonts.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.html5.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.print.min.js"></script>
+<script src="~/Admin/js/chart.min.js"></script>
+

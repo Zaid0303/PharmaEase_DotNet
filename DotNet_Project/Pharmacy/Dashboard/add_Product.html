@@ -216,7 +216,7 @@
 
         <div class="main_content_iner">
             <div class="container-fluid p-0">
-                <form action="" method="post">
+                <form action="" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <!-- Left Section (Product Information) -->
                         <div class="col-md-8 col-12">
@@ -227,56 +227,36 @@
                                     </div>
                                 </div>
 
-                                <!-- Product Image -->
-                                <div class="mb-3">
-                                    <label class="form-label">Product Images</label>
-                                    <div class="product-image-upload">
-                                        <!-- Image Preview Container -->
-                                        <div id="imagePreview" class="product-image-preview position-relative">
-                                            <img id="previewImage" src="" alt="Product Image" style="display:none;"
-                                                class="img-fluid rounded">
-
-                                            <!-- Remove Image Button with Cross Icon -->
-                                            <button id="removeImage" type="button"
-                                                class="btn btn-danger position-absolute"
-                                                style="top: 10px; right: 10px; display:none;">
-                                                <i class="fas fa-times"></i> <!-- Cross Icon (Font Awesome) -->
-                                            </button>
-                                        </div>
-
-                                        <!-- Image Input Field -->
-                                        <input type="file" id="imageInput" class="form-control mt-2" accept="image/*" required>
-                                    </div>
-                                </div>
                                 <!-- Title and Category -->
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <label class="form-label" for="productTitle">Title</label>
-                                        <input type="text" class="form-control" id="productTitle"
+                                        <label class="form-label" for="productName">Product Name</label>
+                                        <input type="text" class="form-control" id="productName" name="productName"
                                             placeholder="Product Name" required>
                                     </div>
+
                                     <div class="col-md-6 mb-3">
-                                        <label class="form-label" for="productCategory">Product Category</label>
-                                        <select class="form-control" id="productCategory">
-                                            <option>Capsule/ Encapsulation</option>
-                                            <option>Tablet</option>
-                                            <option>Liquid Filling</option>
+                                        <label class="form-label" for="productCategory">Product Category (CId)</label>
+                                        <select class="form-control" id="productCategory" name="CId" required>
+                                            <option value="">Select Category</option>
+                                            <option value="Capsule">Capsule</option>
+                                            <option value="Tablet">Tablet</option>
+                                            <option value="Liquid Filling">Liquid Filling</option>
+                                            <!-- Add more categories here if needed -->
                                         </select>
                                     </div>
                                 </div>
 
-
-                                <!-- Product Descriptions -->
+                                <!-- Product Description -->
                                 <div class="mb-3">
-                                    <label class="form-label" for="productDescription">Product Descriptions</label>
-                                    <textarea class="form-control" id="productDescription" rows="5"
-                                        placeholder="Enter product descriptions here..." required></textarea>
+                                    <label class="form-label" for="productDescription">Product Description</label>
+                                    <textarea class="form-control" id="productDescription" name="productDescription"
+                                        rows="5" placeholder="Enter product description here..." required></textarea>
                                 </div>
                             </div>
                         </div>
 
-
-                        <!-- Right Section (Stock and Pricing) -->
+                        <!-- Right Section (Stock, Pricing, Strength) -->
                         <div class="col-md-4 col-12">
                             <div class="white_box mb_30">
                                 <div class="box_header">
@@ -284,36 +264,47 @@
                                         <h3 class="mb-0">Stock and Pricing</h3>
                                     </div>
                                 </div>
-                                <!-- Stock Status -->
-                                <div class="form-group mb-3">
-                                    <label for="inStock">Stock Status</label>
-                                    <div class="input-group">
-                                        <div class="input-group-text">
-                                            <div class>
-                                                <input type="radio" aria-label="Radio button for following text input" required>
-                                            </div>
-                                        </div>
-                                        <input type="text" class="form-control"
-                                            aria-label="Text input with radio button" required>
-                                    </div>
-                                </div>
-                                <!-- Status -->
+
+                                <!-- Quantity -->
                                 <div class="mb-3">
-                                    <label>Status</label>
-                                    <div class="input-group">
-                                        <div class="input-group-text">
-                                            <div class>
-                                                <input type="radio" aria-label="Radio button for following text input" required>
-                                            </div>
-                                        </div>
-                                        <input type="text" class="form-control"
-                                            aria-label="Text input with radio button" required>
-                                    </div>
+                                    <label class="form-label" for="productQuantity">Quantity</label>
+                                    <input type="number" class="form-control" id="productQuantity"
+                                        name="productQuantity" placeholder="Enter Quantity" min="0" required>
                                 </div>
-                                <!-- Product Price -->
+
+                                <!-- Price -->
                                 <div class="mb-3">
-                                    <label class="form-label" for="productPrice">Regular Price</label>
-                                    <input type="text" class="form-control" id="productPrice" placeholder="$0.00" required>
+                                    <label class="form-label" for="productPrice">Price</label>
+                                    <input type="text" class="form-control" id="productPrice" name="productPrice"
+                                        placeholder="$0.00" required>
+                                </div>
+
+                                <!-- Strength Input Field (Disabled by Default) -->
+                                <div class="mb-3">
+                                    <label class="form-label" for="strengthValue">Strength</label>
+                                    <input type="text" class="form-control" id="strengthValue" name="strengthValue"
+                                        placeholder="Enter Strength (e.g., 500mg)" disabled>
+                                </div>
+
+                                <!-- Product Image -->
+                                <div class="mb-3">
+                                    <label class="form-label">Product Image</label>
+                                    <div class="product-image-upload">
+                                        <!-- Image Preview Container -->
+                                        <div id="imagePreview" class="product-image-preview position-relative">
+                                            <img id="previewImage" src="" alt="Product Image" style="display:none;"
+                                                class="img-fluid rounded">
+                                            <!-- Remove Image Button with Cross Icon -->
+                                            <button id="removeImage" type="button"
+                                                class="btn btn-danger position-absolute"
+                                                style="top: 10px; right: 10px; display:none;">
+                                                <i class="fas fa-times"></i> <!-- Cross Icon (Font Awesome) -->
+                                            </button>
+                                        </div>
+                                        <!-- Image Input Field -->
+                                        <input type="file" id="imageInput" class="form-control mt-2" name="productImage"
+                                            accept="image/*" required>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -321,7 +312,7 @@
 
                     <!-- Submit Button -->
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-lg my-3">Submit Product</button>
+                        <button type="submit" class="btn btn-primary btn-lg my-3">Submit Product</button>
                     </div>
                 </form>
 
@@ -330,33 +321,47 @@
                     const previewImage = document.getElementById('previewImage');
                     const imagePreview = document.getElementById('imagePreview');
                     const removeImage = document.getElementById('removeImage');
+                    const productCategory = document.getElementById('productCategory');
+                    const strengthValue = document.getElementById('strengthValue');
 
-                    // Function to preview image
+                    // Preview Product Image
                     imageInput.addEventListener('change', function (event) {
                         const file = event.target.files[0];
                         if (file) {
                             const reader = new FileReader();
                             reader.onload = function (e) {
                                 previewImage.src = e.target.result;
-                                previewImage.style.display = 'block'; // Show the image
-                                removeImage.style.display = 'block';  // Show the remove button
+                                previewImage.style.display = 'block'; // Show image
+                                removeImage.style.display = 'block';  // Show remove button
                             };
                             reader.readAsDataURL(file);
                         }
                     });
 
-                    // Function to remove image
+                    // Remove Product Image
                     removeImage.addEventListener('click', function () {
                         previewImage.src = '';
-                        previewImage.style.display = 'none'; // Hide the image
-                        removeImage.style.display = 'none';  // Hide the remove button
-                        imageInput.value = '';  // Reset the input field
+                        previewImage.style.display = 'none'; // Hide image
+                        removeImage.style.display = 'none';  // Hide remove button
+                        imageInput.value = '';  // Reset input field
+                    });
+
+                    // Enable/Disable Strength Input Field based on Category Selection
+                    productCategory.addEventListener('change', function () {
+                        const selectedCategory = productCategory.value;
+                        const categoriesWithStrength = ['Capsule', 'Tablet', 'Liquid Filling'];
+
+                        if (categoriesWithStrength.includes(selectedCategory)) {
+                            strengthValue.disabled = false;  // Enable Strength input
+                        } else {
+                            strengthValue.disabled = true;   // Disable Strength input
+                            strengthValue.value = '';        // Clear input field when disabled
+                        }
                     });
                 </script>
 
             </div>
         </div>
-
 
         <div class="footer_part">
             <div class="container">

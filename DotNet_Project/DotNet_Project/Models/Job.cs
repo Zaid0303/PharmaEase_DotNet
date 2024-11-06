@@ -26,4 +26,6 @@ public partial class Job
     public string? ApplicationDateTime { get; set; }
 
     public string? Salary { get; set; }
+
+    public string? Image { get; set; }
 }

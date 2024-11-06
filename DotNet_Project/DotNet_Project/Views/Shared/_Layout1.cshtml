@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<html lang="en" data-bs-theme="light" dir="ltr" class="landing-pages">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PharmaEase | Medical Clinic</title>
+    <!-- Config Options -->
+@*     <meta name="setting_options"
+          content='{&quot;saveLocal&quot;:&quot;sessionStorage&quot;,&quot;storeKey&quot;:&quot;huisetting&quot;,&quot;setting&quot;:{&quot;app_name&quot;:{&quot;value&quot;:&quot;Kivicare&quot;}}}'> *@
+    <!-- Google Font Api KEY-->
+    <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/User/assets/images/favicon.png" />
+
+    <!-- Library / Plugin Css Build -->
+    <link rel="stylesheet" href="~/User/assets/css/core/libs.min.css" />
+
+    <!-- flaticon css -->
+    <link rel="stylesheet" href="~/User/assets/vendor/flaticon/css/flaticon.css" />
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="~/User/assets/vendor/font-awesome/css/all.min.css" />
+
+    <!-- Select2 Script -->
+    <script src="~/User/assets/js/plugins/select2.js" defer></script>
+
+    <!-- Sweetlaert2 css -->
+    <link rel="stylesheet" href="~/User/assets/vendor/sweetalert2/dist/sweetalert2.min.css" />
+
+
+    <!-- SwiperSlider css -->
+    <link rel="stylesheet" href="~/User/assets/vendor/swiperSlider/swiper-bundle.min.css">
+
+    <!-- Kivicare Design System Css -->
+    <link rel="stylesheet" href="~/User/assets/css/kivicare.min5438.css?v=1.2.0" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="~/User/assets/css/custom.min5438.css?v=1.2.0" />
+
+    <!-- Rtl Css -->
+    <link rel="stylesheet" href="~/User/assets/css/rtl.min5438.css?v=1.2.0" />
+
+    <!-- Customizer Css -->
+    <link rel="stylesheet" href="~/User/assets/css/customizer.min5438.css?v=1.2.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&amp;display=swap"
+          rel="stylesheet">
+
+
+    <meta name="page_colors" content=''>
+</head>
+
+<body class=" body-bg landing-pages">
+    <span class="screen-darken"></span>
+    <!-- loader Start -->
+
+    <!-- loader END -->
+    <main class="main-content">
+        <div class="position-relative">
+            <!--Nav Start -->
+            @await Html.PartialAsync("User_Navbar")
+            <!--Nav End -->
+
+        </div>
+
+        @RenderBody()
+
+    </main>
+    <!-- Wrapper End -->
+
+    <!-- Footer start -->
+    @await Html.PartialAsync("User_Footer")
+    <!-- footer end -->
+
+    <!-- Back To Top -->
+    <div id="back-to-top" style="display: none;">
+        <a class="p-0 btn btn-sm position-fixed top border-0 text-white" id="top" href="#top">
+            <svg width="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 15.5L12 8.5L19 15.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      stroke-linejoin="round"></path>
+            </svg>
+        </a>
+    </div>
+    <!-- Back To Top -->
+
+
+    <!-- Library Bundle Script -->
+    <script src="~/User/assets/js/core/libs.min.js"></script>
+    <!-- Plugin Scripts -->
+    <!-- Slider-tab Script -->
+    <script src="~/User/assets/js/plugins/slider-tabs.js"></script>
+
+    <!-- fslightbox Script -->
+    <script src="~/User/assets/js/plugins/fslightbox.js" defer></script>
+
+    <!-- Sweet-alert Script -->
+    <script src="~/User/assets/vendor/sweetalert2/dist/sweetalert2.min.js" async></script>
+    <script src="~/User/assets/js/plugins/sweet-alert.js" defer></script>
+
+
+
+
+    <!-- SwiperSlider Script -->
+    <script src="~/User/assets/vendor/swiperSlider/swiper-bundle.min.js"></script>
+    <!-- Lodash Utility -->
+    <script src="~/User/assets/vendor/lodash/lodash.min.js"></script>
+    <!-- Utilities Functions -->
+    <script src="~/User/assets/js/iqonic-script/utility.min.js"></script>
+    <!-- Settings Script -->
+    <script src="~/User/assets/js/iqonic-script/setting.min.js"></script>
+    <!-- Settings Init Script -->
+    <script src="~/User/assets/js/iqonic-script/setting-init.js"></script>
+    <!-- External Library Bundle Script -->
+    <script src="~/User/assets/js/core/external.min.js"></script>
+    <!-- Kivicare Script -->
+    <script src="~/User/assets/js/kivicare5438.js?v=1.2.0" defer></script>
+    <script src="~/User/assets/js/kivicare-advance5438.js?v=1.2.0" defer></script>
+    <!-- Kivicare Pages Script -->
+    <script src="~/User/assets/js/slider.js" defer></script>
+    <script src="~/User/assets/js/scroll-text.js" defer></script>
+    <script src="~/User/assets/js/plugins/countdown.js"></script>
+
+    @* Default Link *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

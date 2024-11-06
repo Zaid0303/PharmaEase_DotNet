@@ -1,0 +1,131 @@
+﻿@model DotNet_Project.Models.Company
+
+@{
+    ViewData["Title"] = "AddComp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main_content_iner">
+    <div class="container-fluid p-0">
+        <form asp-action="AddComp" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-md-8 col-12">
+                    <div class="white_box mb_30">
+                        <div class="box_header">
+                            <div class="main-title">
+                                <h3 class="mb-0">Add Company Information</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a asp-action="ShowComp">Back to List</a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- Company Name -->
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Name" class="form-label" for="companyName">Company Name</label>
+                                <input asp-for="Name" type="text" class="form-control" placeholder="Enter company name" required>
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+
+                            <!-- Company Email -->
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Email" class="form-label" for="companyEmail">Email</label>
+                                <input asp-for="Email" type="email" class="form-control" placeholder="Enter company email" required>
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- Company Number -->
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Number" class="form-label" for="companyNumber">Contact Number</label>
+                                <input asp-for="Number" type="tel" class="form-control" placeholder="Enter contact number" required>
+                                <span asp-validation-for="Number" class="text-danger"></span>
+                            </div>
+
+                            <!-- Company Location -->
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Location" class="form-label" for="companyLocation">Location</label>
+                                <input asp-for="Location" type="text" class="form-control" placeholder="Enter location" required>
+                                <span asp-validation-for="Location" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="white_box mb_30">
+                        <div class="box_header">
+                            <div class="main-title">
+                                <h3 class="mb-0">Company Logo</h3>
+                            </div>
+                        </div>
+                        <!-- Company Logo in a separate row -->
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Logo" class="form-label">Company Logo</label>
+                                <div class="company-logo-upload">
+                                    <!-- Logo Preview Container -->
+                                    <div id="logoPreview" class="company-logo-preview position-relative">
+                                        <img id="previewLogo" src="" alt="Company Logo" style="display:none;"
+                                             class="img-fluid rounded">
+
+                                        <!-- Remove Logo Button with Cross Icon -->
+                                        <button id="removeLogo" type="button" class="btn btn-danger position-absolute"
+                                                style="top: 10px; right: 10px; display:none;">
+                                            <i class="fas fa-times"></i> <!-- Cross Icon (Font Awesome) -->
+                                        </button>
+                                    </div>
+
+                                    <!-- Logo Input Field -->
+                                    <input asp-for="Logo" type="file" id="logoInput" class="form-control mt-2" name="file"
+                                           accept="image/*" required>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-grid gap-2">
+                <input type="submit" class="btn btn-primary btn-lg my-3" value="Submit Company">
+            </div>
+        </form>
+
+        <script>
+            const logoInput = document.getElementById('logoInput');
+            const previewLogo = document.getElementById('previewLogo');
+            const logoPreview = document.getElementById('logoPreview');
+            const removeLogo = document.getElementById('removeLogo');
+
+            // Function to preview logo
+            logoInput.addEventListener('change', function (event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        previewLogo.src = e.target.result;
+                        previewLogo.style.display = 'block'; // Show the logo
+                        removeLogo.style.display = 'block';  // Show the remove button
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Function to remove logo
+            removeLogo.addEventListener('click', function () {
+                previewLogo.src = '';
+                previewLogo.style.display = 'none'; // Hide the logo
+                removeLogo.style.display = 'none';  // Hide the remove button
+                logoInput.value = '';  // Reset the input field
+            });
+        </script>
+
+    </div>
+</div>
+

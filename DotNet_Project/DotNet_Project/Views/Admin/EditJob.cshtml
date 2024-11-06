@@ -1,0 +1,184 @@
+﻿@model DotNet_Project.Models.Job
+
+@{
+    ViewData["Title"] = "EditJob";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main_content_iner">
+    <div class="container-fluid p-0">
+        <form asp-action="EditJob" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="row">
+                <input type="hidden" asp-for="Id" />
+                <!-- Left Section (Job Information) -->
+                <div class="col-md-8 col-12">
+                    <div class="white_box mb_30">
+                        <div class="box_header">
+                            <div class="main-title">
+                                <h3 class="mb-0">Add Job Information</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a asp-action="ShowJob">Back to List</a>
+                            </div>
+                        </div>
+
+                        <!-- Job Title and Department -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Title" class="form-label" for="jobTitle">Job Title</label>
+                                <input asp-for="Title" type="text" class="form-control" id="jobTitle" placeholder="Pharmacist, Assistant..." required>
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Department" class="form-label" for="department">Department</label>
+                                <input asp-for="Department" type="text" class="form-control" id="department" placeholder="Pharmacy, HR, Admin..." required>
+                                <span asp-validation-for="Department" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Location and Employment Type -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Location" class="form-label" for="location">Location</label>
+                                <input asp-for="Location" type="text" class="form-control" id="location" placeholder="Lahore, Karachi, Islamabad," required>
+                                <span asp-validation-for="Location" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="EmpType" class="form-label" for="employmentType">Employment Type</label>
+                                <select asp-for="EmpType" class="form-control" id="employmentType" required>
+                                    <option>Full-time</option>
+                                    <option>Part-time</option>
+                                    <option>Contract</option>
+                                </select>
+                                <span asp-validation-for="EmpType" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Job Description -->
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label" for="jobDescription">Job Description</label>
+                            <textarea asp-for="Description" class="form-control" id="jobDescription" rows="4" placeholder="Enter job description..." required></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <!-- Qualifications, Experience, and Skills -->
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Experience" class="form-label" for="experience">Experience</label>
+                                <input asp-for="Experience" type="text" class="form-control" id="experience" placeholder="Years of experience" required>
+                                <span asp-validation-for="Experience" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Experience" class="form-label" for="skills">Skills</label>
+                                <input asp-for="Experience" type="text" class="form-control" id="skills" placeholder="Required skills" required>
+                                <span asp-validation-for="Experience" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Qualification" class="form-label" for="qualifications">Qualifications</label>
+                                <textarea asp-for="Qualification" class="form-control" id="qualifications" rows="3" placeholder="Bachelor's in Pharmacy (Pharm.D) from a recognized " required></textarea>
+                                <span asp-validation-for="Qualification" class="text-danger"></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- Right Section (Other Information) -->
+                <div class="col-md-4 col-12">
+                    <div class="white_box mb_30">
+                        <div class="box_header">
+                            <div class="main-title">
+                                <h3 class="mb-0">Other Information</h3>
+                            </div>
+                        </div>
+
+                        <!-- Application DateTime -->
+                        <div class="mb-3">
+                            <label asp-for="ApplicationDateTime" class="form-label" for="applicationDateTime">Application Date and Time</label>
+                            <input asp-for="ApplicationDateTime" type="text" class="form-control" id="applicationDateTime" placeholder="example 9:00am - 5:00pm" required>
+                            <span asp-validation-for="ApplicationDateTime" class="text-danger"></span>
+                        </div>
+
+                        <!-- Salary -->
+                        <div class="mb-3">
+                            <label asp-for="Salary" class="form-label" for="salary">Salary</label>
+                            <input asp-for="Salary" type="text" class="form-control" id="salary" placeholder="Enter Salary" required>
+                            <span asp-validation-for="Salary" class="text-danger"></span>
+                        </div>
+
+                        <!-- Job Image -->
+                        <div class="mb-3">
+                            <label class="form-label">Current Job Image</label>
+                            <div class="product-image-preview position-relative mb-3">
+                                <!-- Display Old Image -->
+                                <img id="oldImagePreview" src="@Url.Content(Model.Image)" alt="Old Product Image" class="img-fluid rounded">
+                            </div>
+                        </div>
+
+                        <!-- Job Image -->
+                        <div class="mb-3 mt-4">
+                            <label class="form-label">Job Image</label>
+                            <div class="product-image-upload">
+                                <!-- Image Preview Container -->
+                                <div id="imagePreview" class="product-image-preview position-relative">
+                                    <input type="hidden" name="jobid" value="@Model.Image" />
+                                    <img id="previewImage" src="" alt="Job Image" style="display:none;" class="img-fluid rounded">
+                                    <!-- Remove Image Button with Cross Icon -->
+                                    <button id="removeImage" type="button" class="btn btn-danger position-absolute" style="top: 10px; right: 10px; display:none;">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+
+                                <!-- Image Input Field -->
+                                <input asp-for="Image" type="file" name="file" id="imageInput" class="form-control mt-2" accept="image/*" required>
+                                <span asp-validation-for="Image" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-grid gap-2">
+                <input type="submit" class="btn btn-primary btn-lg my-3" value="Save Job">
+            </div>
+        </form>
+
+        <script>
+            const imageInput = document.getElementById('imageInput');
+            const previewImage = document.getElementById('previewImage');
+            const imagePreview = document.getElementById('imagePreview');
+            const removeImage = document.getElementById('removeImage');
+
+            // Function to preview image
+            imageInput.addEventListener('change', function (event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        previewImage.src = e.target.result;
+                        previewImage.style.display = 'block'; // Show the image
+                        removeImage.style.display = 'block';  // Show the remove button
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+
+            // Function to remove image
+            removeImage.addEventListener('click', function () {
+                previewImage.src = '';
+                previewImage.style.display = 'none'; // Hide the image
+                removeImage.style.display = 'none';  // Hide the remove button
+                imageInput.value = '';  // Reset the input field
+            });
+        </script>
+    </div>
+</div>
+
