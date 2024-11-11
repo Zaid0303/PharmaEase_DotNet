@@ -9,9 +9,9 @@ public partial class Product
 
     public string? Name { get; set; }
 
-    public string? Quantity { get; set; }
+    public int? Quantity { get; set; }
 
-    public string? Price { get; set; }
+    public int? Price { get; set; }
 
     public string? Description { get; set; }
 
@@ -22,4 +22,8 @@ public partial class Product
     public int? CId { get; set; }
 
     public virtual Category? CIdNavigation { get; set; }
+
+    public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
+
+    public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 }

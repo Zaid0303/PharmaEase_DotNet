@@ -28,4 +28,6 @@ public partial class Job
     public string? Salary { get; set; }
 
     public string? Image { get; set; }
+
+    public virtual ICollection<ApplyJob> ApplyJobs { get; set; } = new List<ApplyJob>();
 }

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<DotNet_Project.Models.Category>
+
+@{
+    ViewData["Title"] = "Categories";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<div class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                    @foreach (var item in Model) {
+                    <div class="col">
+                        <div class="iq-product-box position-relative animate:hover-media">
+                            <div class="iq-inner-box">
+                                <a href="shop-detail.html"></a>
+                                <div class="iq-product-image position-relative">
+                                    <div class="animate:hover-media-wrap d-flex justify-content-center">
+                                        <img src="@Html.DisplayFor(modelItem => item.Image)" height="150" width="150" alt="icon"
+                                             class="img-fluid hover-media" loading="lazy">
+                                    </div>
+                                    <div class="iq-button-holder d-inline-block">
+                                        <ul class="list-inline d-flex align-items-center gap-5 m-0 bg-white py-3 px-5">
+                                            <li class="quick-view">
+                                                <a class="cursor-pointer" data-bs-toggle="modal" data-bs-target="#woosq-popup">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 20 17"
+                                                         fill="none">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M13.1614 8.05311C13.1614 9.79911 11.7454 11.2141 9.99938 11.2141C8.25338 11.2141 6.83838 9.79911 6.83838 8.05311C6.83838 6.30611 8.25338 4.89111 9.99938 4.89111C11.7454 4.89111 13.1614 6.30611 13.1614 8.05311Z"
+                                                              stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                              stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                              d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05292C17.289 3.48892 13.806 0.750916 9.998 0.750916H10.002C6.194 0.750916 2.711 3.48892 0.75 8.05292C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z"
+                                                              stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                              stroke-linejoin="round" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="product-caption text-center mt-3">
+                                    <h5 class="product-title mt-1 mb-2">
+                                        <a href="product-standard.html">@Html.DisplayFor(modelItem => item.Name)</a>
+                                    </h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

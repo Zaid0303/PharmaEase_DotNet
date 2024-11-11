@@ -35,7 +35,6 @@
                     <li><a asp-action="ShowPro">View Product</a></li>
                 </ul>
             </li>
-
             <li>
                 <a class="has-arrow" href="#" aria-expanded="false">
                     <i class="fa fa-box"></i> <!-- Category Icon -->
@@ -47,6 +46,38 @@
                 </ul>
             </li>
 
+            <!-- Order Section -->
+            <li class="side_menu_title">
+                <span>Our Orders</span>
+            </li>
+
+            <li>
+                <a asp-action="ShowOrder" aria-expanded="false">
+                    <i class="fa fa-shopping-cart"></i> <!-- Orders Icon -->
+                    <span>Orders</span>
+                </a>
+            </li>
+
+            <li>
+                <a asp-action="ShowOrderDetail" aria-expanded="false">
+                    <i class="fa fa-list-alt"></i> <!-- Order Details Icon -->
+                    <span>Order Details</span>
+                </a>
+            </li>
+
+            <!-- Authentication Section -->
+            <li class="side_menu_title">
+                <span>Authentication</span>
+            </li>
+            <li>
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <i class="fa fa-users"></i> <!-- Users Icon -->
+                    <span>Users</span>
+                </a>
+                <ul>
+                    <li><a asp-action="ShowUser">View User</a></li>
+                </ul>
+            </li>
             <li>
                 <a class="has-arrow" href="#" aria-expanded="false">
                     <i class="fa fa-box"></i> <!-- Role Icon -->
@@ -55,17 +86,6 @@
                 <ul>
                     <li><a asp-action="AddRole">Add Role</a></li>
                     <li><a asp-action="ShowRole">View Role</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a class="has-arrow" href="#" aria-expanded="false">
-                    <i class="fa fa-users"></i> <!-- Users Icon -->
-                    <span>Users</span>
-                </a>
-                <ul>
-                    <li><a href="mail_box.html">Add User</a></li>
-                    <li><a href="chat.html">View User</a></li>
                 </ul>
             </li>
 
@@ -80,22 +100,22 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="#">Hiring</a>
+                        <a>Hiring</a>
                         <ul>
-                            <li><a href="buttons.html">Add Hiring</a></li>
-                            <li><a href="dropdown.html">View Hiring</a></li>
+                            <li><a asp-action="AddJob">Add Hiring</a></li>
+                            <li><a asp-action="ShowJob">View Hiring</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Application</a>
-                        <ul>
-                            <li><a href="progress.html">View Application</a></li>
-                        </ul>
+                        <a asp-action="ShowApplyJob">View Application</a>
                     </li>
                 </ul>
             </li>
 
             <!-- Pages Section -->
+            <li class="side_menu_title">
+                <span>Others</span>
+            </li>
             <li>
                 <a class="has-arrow" href="#" aria-expanded="false">
                     <i class="fa fa-file-alt"></i> <!-- Pages Icon -->
@@ -103,24 +123,13 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="#">Contact</a>
-                        <ul>
-                            <li><a href="buttons.html">Add Contact</a></li>
-                            <li><a href="dropdown.html">View Contact</a></li>
-                        </ul>
+                        <a asp-action="ShowContact">Contact</a>
                     </li>
                     <li>
                         <a href="#">About</a>
                         <ul>
                             <li><a href="progress.html">Add About</a></li>
                             <li><a href="progress.html">View About</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                        <ul>
-                            <li><a href="progress.html">Add Service</a></li>
-                            <li><a href="progress.html">View Service</a></li>
                         </ul>
                     </li>
                 </ul>

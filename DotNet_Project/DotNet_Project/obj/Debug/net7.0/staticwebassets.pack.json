@@ -541,6 +541,10 @@
       "PackagePath": "staticwebassets\\Image\\Company_img\\platinum logo.png"
     },
     {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Defaul_img\\user-profile.png",
+      "PackagePath": "staticwebassets\\Image\\Defaul_img\\user-profile.png"
+    },
+    {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Job_img\\Poster (1).jpg",
       "PackagePath": "staticwebassets\\Image\\Job_img\\Poster (1).jpg"
     },
@@ -553,6 +557,22 @@
       "PackagePath": "staticwebassets\\Image\\Job_img\\Talbinah Post.png"
     },
     {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Job_img\\medical Doctor.jpg",
+      "PackagePath": "staticwebassets\\Image\\Job_img\\medical Doctor.jpg"
+    },
+    {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Job_img\\pharmacist.jpg",
+      "PackagePath": "staticwebassets\\Image\\Job_img\\pharmacist.jpg"
+    },
+    {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Job_img\\pharmacy Assistant.jpg",
+      "PackagePath": "staticwebassets\\Image\\Job_img\\pharmacy Assistant.jpg"
+    },
+    {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\Stethoscope.jpeg",
+      "PackagePath": "staticwebassets\\Image\\Pro_img\\Stethoscope.jpeg"
+    },
+    {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\capsule1.png",
       "PackagePath": "staticwebassets\\Image\\Pro_img\\capsule1.png"
     },
@@ -561,12 +581,24 @@
       "PackagePath": "staticwebassets\\Image\\Pro_img\\capsule4.png"
     },
     {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\injection1.png",
+      "PackagePath": "staticwebassets\\Image\\Pro_img\\injection1.png"
+    },
+    {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\injection2.png",
       "PackagePath": "staticwebassets\\Image\\Pro_img\\injection2.png"
     },
     {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\liquid1.png",
+      "PackagePath": "staticwebassets\\Image\\Pro_img\\liquid1.png"
+    },
+    {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\liquid2.png",
       "PackagePath": "staticwebassets\\Image\\Pro_img\\liquid2.png"
+    },
+    {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\tablet2.png",
+      "PackagePath": "staticwebassets\\Image\\Pro_img\\tablet2.png"
     },
     {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\tablet3.png",
@@ -871,6 +903,10 @@
     {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\User\\assets\\images\\eye-care\\eye-05.html",
       "PackagePath": "staticwebassets\\User\\assets\\images\\eye-care\\eye-05.html"
+    },
+    {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\User\\assets\\images\\favicon - Copy.png",
+      "PackagePath": "staticwebassets\\User\\assets\\images\\favicon - Copy.png"
     },
     {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\User\\assets\\images\\favicon.ico",
@@ -2183,6 +2219,10 @@
     {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\logo2.png",
       "PackagePath": "staticwebassets\\logo2.png"
+    },
+    {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\uploads\\Muhammad Zaid CV.pdf",
+      "PackagePath": "staticwebassets\\uploads\\Muhammad Zaid CV.pdf"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DotNet_Project.Microsoft.AspNetCore.StaticWebAssets.props",

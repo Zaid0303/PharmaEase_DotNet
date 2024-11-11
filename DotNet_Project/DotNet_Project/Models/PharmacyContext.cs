@@ -15,7 +15,11 @@ public partial class PharmacyContext : DbContext
     {
     }
 
+    public virtual DbSet<ApplyJob> ApplyJobs { get; set; }
+
     public virtual DbSet<Career> Careers { get; set; }
+
+    public virtual DbSet<Cart> Carts { get; set; }
 
     public virtual DbSet<Category> Categories { get; set; }
 
@@ -26,6 +30,10 @@ public partial class PharmacyContext : DbContext
     public virtual DbSet<Job> Jobs { get; set; }
 
     public virtual DbSet<Login> Logins { get; set; }
+
+    public virtual DbSet<Order> Orders { get; set; }
+
+    public virtual DbSet<OrderDetail> OrderDetails { get; set; }
 
     public virtual DbSet<Product> Products { get; set; }
 
@@ -41,6 +49,24 @@ public partial class PharmacyContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<ApplyJob>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__ApplyJob__3214EC07D6372344");
+
+            entity.ToTable("ApplyJob");
+
+            entity.Property(e => e.Resume).HasMaxLength(255);
+            entity.Property(e => e.Status).HasMaxLength(255);
+
+            entity.HasOne(d => d.Job).WithMany(p => p.ApplyJobs)
+                .HasForeignKey(d => d.Jobid)
+                .HasConstraintName("FK_ApplyJob_ToJobs");
+
+            entity.HasOne(d => d.User).WithMany(p => p.ApplyJobs)
+                .HasForeignKey(d => d.Userid)
+                .HasConstraintName("FK_ApplyJob_ToLogin");
+        });
+
         modelBuilder.Entity<Career>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Career__3214EC07BEAF9C79");
@@ -58,6 +84,28 @@ public partial class PharmacyContext : DbContext
             entity.Property(e => e.YearOfQualification)
                 .HasMaxLength(255)
                 .HasColumnName("Year_of_Qualification");
+        });
+
+        modelBuilder.Entity<Cart>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__cart__3214EC0773F8DE88");
+
+            entity.ToTable("cart");
+
+            entity.Property(e => e.Proid).HasColumnName("proid");
+            entity.Property(e => e.Proprice).HasColumnName("proprice");
+            entity.Property(e => e.Qty).HasColumnName("qty");
+            entity.Property(e => e.Userid).HasColumnName("userid");
+
+            entity.HasOne(d => d.Pro).WithMany(p => p.Carts)
+                .HasForeignKey(d => d.Proid)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_cart_ToTable");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Carts)
+                .HasForeignKey(d => d.Userid)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_cart_ToTable_1");
         });
 
         modelBuilder.Entity<Category>(entity =>
@@ -130,12 +178,73 @@ public partial class PharmacyContext : DbContext
             entity.Property(e => e.Email).HasMaxLength(255);
             entity.Property(e => e.Image).HasMaxLength(255);
             entity.Property(e => e.Name).HasMaxLength(255);
-            entity.Property(e => e.Password).HasColumnType("text");
+            entity.Property(e => e.Password).HasMaxLength(255);
             entity.Property(e => e.RoleId).HasColumnName("Role_Id");
 
             entity.HasOne(d => d.Role).WithMany(p => p.Logins)
                 .HasForeignKey(d => d.RoleId)
                 .HasConstraintName("FK_Login_ToTable");
+        });
+
+        modelBuilder.Entity<Order>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__order__3214EC0726AB4503");
+
+            entity.ToTable("order");
+
+            entity.Property(e => e.Address)
+                .HasMaxLength(50)
+                .HasColumnName("address");
+            entity.Property(e => e.CustomerName)
+                .HasMaxLength(50)
+                .HasColumnName("customer_name");
+            entity.Property(e => e.Date)
+                .HasMaxLength(50)
+                .HasColumnName("date");
+            entity.Property(e => e.OrderStatus)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasDefaultValueSql("('Pending')");
+            entity.Property(e => e.PhoneNumber)
+                .HasMaxLength(50)
+                .HasColumnName("phone_number");
+            entity.Property(e => e.TotalAmount).HasColumnName("total_amount");
+            entity.Property(e => e.Userid).HasColumnName("userid");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Orders)
+                .HasForeignKey(d => d.Userid)
+                .HasConstraintName("FK_order_ToTable");
+        });
+
+        modelBuilder.Entity<OrderDetail>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__order_de__3214EC07AF97422A");
+
+            entity.ToTable("order_detail");
+
+            entity.Property(e => e.Date)
+                .HasMaxLength(50)
+                .HasColumnName("date");
+            entity.Property(e => e.OrderId).HasColumnName("order_id");
+            entity.Property(e => e.ProId).HasColumnName("pro_id");
+            entity.Property(e => e.ProName)
+                .HasMaxLength(50)
+                .HasColumnName("pro_name");
+            entity.Property(e => e.Proprice).HasColumnName("proprice");
+            entity.Property(e => e.Qty).HasColumnName("qty");
+            entity.Property(e => e.Userid).HasColumnName("userid");
+
+            entity.HasOne(d => d.Order).WithMany(p => p.OrderDetails)
+                .HasForeignKey(d => d.OrderId)
+                .HasConstraintName("FK_order_detail_ToTable_2");
+
+            entity.HasOne(d => d.Pro).WithMany(p => p.OrderDetails)
+                .HasForeignKey(d => d.ProId)
+                .HasConstraintName("FK_order_detail_ToTable");
+
+            entity.HasOne(d => d.User).WithMany(p => p.OrderDetails)
+                .HasForeignKey(d => d.Userid)
+                .HasConstraintName("FK_order_detail_ToTable_1");
         });
 
         modelBuilder.Entity<Product>(entity =>
@@ -148,8 +257,6 @@ public partial class PharmacyContext : DbContext
             entity.Property(e => e.Description).HasMaxLength(250);
             entity.Property(e => e.Image).HasMaxLength(250);
             entity.Property(e => e.Name).HasMaxLength(250);
-            entity.Property(e => e.Price).HasMaxLength(250);
-            entity.Property(e => e.Quantity).HasMaxLength(250);
             entity.Property(e => e.Strength).HasMaxLength(250);
 
             entity.HasOne(d => d.CIdNavigation).WithMany(p => p.Products)

@@ -20,7 +20,9 @@
     <Folder Include="wwwroot\Image\Cat_img\" />
     <Folder Include="wwwroot\Image\Job_img\" />
     <Folder Include="wwwroot\Image\Company_img\" />
+    <Folder Include="wwwroot\Image\Defaul_img\" />
     <Folder Include="wwwroot\Image\Pro_img\" />
+    <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
   <ItemGroup>

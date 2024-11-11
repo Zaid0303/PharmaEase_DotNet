@@ -1,0 +1,161 @@
+﻿@model IEnumerable<DotNet_Project.Models.Contact>
+
+@{
+    ViewData["Title"] = "ShowContact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/responsive.dataTables.min.css" />
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/buttons.dataTables.min.css" />
+
+<div class="main_content_iner ">
+    <div class="container-fluid p-0">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="QA_section">
+                    <div class="white_box_tittle list_header">
+                        <h4>Show Contact Details</h4>
+                        <div class="box_right d-flex lms_block">
+                            <div class="serach_field_2">
+                                <div class="search_inner">
+                                    <form Active="#">
+                                        <div class="search_field">
+                                            <input type="text" placeholder="Search content here...">
+                                        </div>
+                                        <button type="submit"> <i class="ti-search"></i> </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="QA_table mb_30">
+
+                        <table class="table lms_table_active">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.FName)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.LName)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Email)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Number)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Message)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.FName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.LName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Email)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Number)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Message)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                                            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        <style>
+                            .status_btn2 {
+                                border-radius: 30px;
+                                color: white !important;
+                                font-size: 10px;
+                                height: 35px;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Admin/vendors/datatable/js/jquery.dataTables.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/dataTables.responsive.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/dataTables.buttons.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.flash.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/jszip.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/pdfmake.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/vfs_fonts.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.html5.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.print.min.js"></script>
+<script src="~/Admin/js/chart.min.js"></script>
+
+<h1>ShowContact</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

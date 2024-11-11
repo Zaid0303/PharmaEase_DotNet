@@ -58,6 +58,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowApplyJob.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd0FwcGx5Sm9iLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowCat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd0NhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,8 +74,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd0NvbXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd0NvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowJob.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd0pvYi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowOrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd09yZGVyRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowPro.cshtml]
@@ -76,6 +96,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1JvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Admin/ShowUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1VzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/Cookies/Adduser.cshtml]
@@ -126,12 +150,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/cartEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxjYXJ0RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/JobDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxKb2JEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/Jobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxKb2JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/MyShop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeVNob3AuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/ProDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/ShowCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaG93Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/showCatproducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxzaG93Q2F0cHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/_ViewImports.cshtml]

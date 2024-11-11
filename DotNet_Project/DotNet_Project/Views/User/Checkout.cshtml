@@ -1,0 +1,105 @@
+﻿@model DotNet_Project.Models.Order
+
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+
+<div class="checkout-page section-padding">
+    <div class="container">
+        <div class="main-cart mb-3 mb-md-5 pb-0 pb-md-5">
+            <ul class="cart-page-items d-flex justify-content-center list-inline align-items-center gap-3 gap-md-5 flex-wrap">
+                <li class="cart-page-item">
+                    <span class=" cart-pre-number bg-light border-radius rounded-circle me-1"> 1 </span>
+                    <span class="cart-page-link ">
+                        Shopping Cart
+                    </span>
+                </li>
+                <li class="cart-page-item">
+                    <svg width="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
+                              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                        <path d="M10.5576 15.4709L14.0436 11.9999L10.5576 8.52895" stroke="currentColor"
+                              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </li>
+                <li class="cart-page-item  active">
+                    <span class="cart-pre-heading badge cart-pre-number bg-primary border-radius rounded-circle me-1">
+                        2
+                    </span>
+                    <span class="cart-page-link ">
+                        Checkout
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <form asp-action="checkout">
+
+
+            <h3 class="mb-3">Billing details</h3>
+            @if (ViewBag.message != null)
+            {
+                <div class="alert alert-success" role="alert">
+                    @ViewBag.message
+                </div>
+            }
+                    <input asp-for="CustomerName" name="cname" type="email" value="@ViewBag.UserEmail" required placeholder="E-mail Address" class="form-control rounded-0 mb-5">
+                    <span asp-validation-for="CustomerName" class="text-danger"></span>
+
+
+
+                    <input asp-for="Address" name="caddress" type="text" required placeholder="Your Address" class="form-control rounded-0 mb-3">
+                    <span asp-validation-for="Address" class="text-danger"></span>
+
+                    <input asp-for="PhoneNumber" name="cphone" minlength="11" type="tel" required placeholder="Phone Number" class="form-control rounded-0 mb-3">
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+
+            <div class="checkout-review-order">
+                <div class="table-responsive">
+                    <table class="w-100">
+                        <tfoot>
+                            <tr class="border-bottom">
+                                <td class="ps-0 p-3 fw-bold text-primary">Total</td>
+                                <td class="pe-0 p-3 fw-bold text-end">
+                                    <input asp-for="TotalAmount" type="hidden" name="tp" value="@ViewBag.total" />
+                                    <h5 class="text-primary mb-0" >PKR - @ViewBag.total</h5>
+                                    <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <div class="checkout-payment my-4 py-3">
+                        <label>Cash on delivery</label>
+                        <div class="payment-box my-3 p-3 bg-primary-subtle text-body position-relative">
+                            <p class="mb-0">Pay with cash upon delivery.</p>
+                        </div>
+                        <hr class="my-5">
+                        <p class="my-3">
+                            Your personal data will be used to process your order, support your experience
+                            throughout this website, and for other purposes described in our
+                        </p>
+                        <div class="iq-btn-container">
+                            <button type="submit" class="iq-button text-capitalize border-0">
+                                <span class="iq-btn-text-holder position-relative">Place Order</span>
+                                <span class="iq-btn-icon-holder">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 8"
+                                         fill="none">
+                                        <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                                              fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+

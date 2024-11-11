@@ -1,7 +1,10 @@
 ﻿using DotNet_Project.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Mail;
+using System.Net;
 
 namespace DotNet_Project.Controllers
 {
@@ -10,8 +13,29 @@ namespace DotNet_Project.Controllers
         PharmacyContext db = new PharmacyContext();
         public IActionResult Index()
         {
+            // Fetch counts from the database
+            var totalProducts = db.Products.Count();
+            var totalOrderDetails = db.OrderDetails.Count();
+            var totalCategories = db.Categories.Count();
+            var totalRole2Users = db.Logins.Count(u => u.RoleId == 2);
+
+            // Fetch minimum and maximum PKR prices from OrderDetails
+            var minOrderPrice = db.OrderDetails.Min(o => o.ProId);
+            var maxOrderPrice = db.OrderDetails.Max(o => o.ProId);
+
+            // Pass the counts and order prices to the view using ViewData
+            ViewData["TotalProducts"] = totalProducts;
+            ViewData["TotalOrderDetails"] = totalOrderDetails;
+            ViewData["TotalCategories"] = totalCategories;
+            ViewData["TotalUsers"] = totalRole2Users;
+            ViewData["MinOrderPrice"] = minOrderPrice;
+            ViewData["MaxOrderPrice"] = maxOrderPrice;
+
             return View();
         }
+
+
+
 
         //-------- Admin Role Start --------//
         [HttpGet]
@@ -66,6 +90,24 @@ namespace DotNet_Project.Controllers
             return View();
         }
         //-------- Admin Role End --------//
+
+
+        //-------- Admin User Start --------//
+        public IActionResult ShowUser()
+        {
+            var Userkadata = db.Logins.ToList();
+            return View(Userkadata);
+        }
+
+        [HttpGet]
+        public IActionResult DeleteUser(Login Ug)
+        {
+
+            db.Logins.Remove(Ug);
+            db.SaveChanges();
+            return RedirectToAction("ShowUser");
+        }
+        //-------- Admin User End --------//
 
 
         //-------- Admin Category Start --------//
@@ -228,11 +270,79 @@ namespace DotNet_Project.Controllers
 
         }
 
-        //-------- Admin Job End --------//
+        //-- Show User Apply Jobs --//
+        public IActionResult ShowApplyJob()
+        {
+            var jobApplications = db.ApplyJobs
+                                    .Include(a => a.Job)
+                                    .Include(a => a.User)
+                                    .ToList();
+            return View(jobApplications);
+        }
 
-        //-------- Admin company start --------//
+        public IActionResult Approve(int id)
+        {
+            var application = db.ApplyJobs.Include(a => a.User).FirstOrDefault(a => a.Id == id);
+            if (application == null)
+            {
+                return NotFound();
+            }
 
-        [HttpGet]
+            application.Status = "Approved";
+            db.SaveChanges();
+
+            SendStatusEmail(application.User.Email, application.Status);
+            return RedirectToAction("ShowApplyJob");
+        }
+
+        public IActionResult Reject(int id)
+        {
+            var application = db.ApplyJobs.Include(a => a.User).FirstOrDefault(a => a.Id == id);
+            if (application == null)
+            {
+                return NotFound();
+            }
+
+            application.Status = "Rejected";
+            db.SaveChanges();
+
+            SendStatusEmail(application.User.Email, application.Status);
+            return RedirectToAction("ShowApplyJob");
+        }
+
+        private void SendStatusEmail(string userEmail, string status)
+        {
+            SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
+            {
+                EnableSsl = true,
+                UseDefaultCredentials = false,
+                Credentials = new NetworkCredential("pharmaease03@gmail.com", "cpeyztunyvumuupf")
+            };
+
+            MailMessage msg = new MailMessage("pharmaease03@gmail.com", userEmail)
+            {
+                Subject = "Application Status Update",
+                Body = $"Dear Applicant,\n\nYour application status has been updated to: {status}.\n\nThank you for applying.\n\nBest Regards,\nPharmaEase Team"
+            };
+
+            try
+            {
+                client.Send(msg);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error sending email: {ex.Message}");
+            }
+        }
+
+    //-- Show User Apply Jobs --//
+
+
+    //-------- Admin Job End --------//
+
+    //-------- Admin company start --------//
+
+    [HttpGet]
         public IActionResult AddComp()
         {
             return View();
@@ -399,6 +509,76 @@ namespace DotNet_Project.Controllers
         }
 
         //-------- Admin Product End --------//
+
+
+        //-------- Admin Order & Details Start --------//
+        //[Authorize(Roles = "Admin")]
+        public IActionResult ShowOrder()
+        {
+            // Get all orders with their associated user
+            var orders = db.Orders.Include(p => p.User).ToList();
+            return View(orders);
+        }
+
+        public IActionResult UpdateOrderStatus(int id, string status)
+        {
+            var order = db.Orders.Include(o => o.User).FirstOrDefault(o => o.Id == id);
+            if (order != null)
+            {
+                // Update the order status
+                order.OrderStatus = status;
+                db.SaveChanges();
+
+                // Send email confirmation to the user
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
+                {
+                    EnableSsl = true,
+                    UseDefaultCredentials = false,
+                    Credentials = new NetworkCredential("pharmaease03@gmail.com", "cpeyztunyvumuupf")
+                };
+
+                string emailBody = $"Dear {order.User.Name},\n\n" +
+                                   $"Your order with Order ID: {order.Id} has been {status}.\n\n" +
+                                   $"Order Details:\n" +
+                                   $"- Total Price: {order.TotalAmount}\n" +
+                                   $"- Status: {status}\n\n" +
+                                   $"Thank you for shopping with us.";
+
+                MailMessage msg = new MailMessage("pharmaease03@gmail.com", order.User.Email)
+                {
+                    Subject = $"Order {status}",
+                    Body = emailBody
+                };
+
+                client.Send(msg);
+            }
+
+            // Show success message
+            ViewBag.Message = $"Order {status} & email notification sent successfully.";
+
+            return RedirectToAction("ShowOrder");
+        }
+
+        public IActionResult ShowOrderDetail()
+        {
+            var orderDetails = db.OrderDetails.Include(x => x.Pro)
+                                              .Include(x => x.User)
+                                              .Include(x => x.Order)
+                                              .ToList();
+            return View(orderDetails);
+        }
+
+        //-------- Admin Order & Details End --------//
+
+
+        //-------- Admin Contact Start --------//
+        public IActionResult ShowContact()
+        {
+            var Contactkadata = db.Contacts.ToList();
+            return View(Contactkadata);
+        }
+
+        //-------- Admin Contact End --------//
 
     }
 

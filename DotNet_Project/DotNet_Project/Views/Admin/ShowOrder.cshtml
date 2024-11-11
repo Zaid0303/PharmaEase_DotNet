@@ -1,0 +1,100 @@
+﻿@model IEnumerable<DotNet_Project.Models.Order>
+
+@{
+    ViewData["Title"] = "ShowOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/responsive.dataTables.min.css" />
+<link rel="stylesheet" href="~/Admin/vendors/datatable/css/buttons.dataTables.min.css" />
+
+<div class="main_content_iner ">
+    <div class="container-fluid p-0">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="QA_section">
+                    <div class="white_box_tittle list_header">
+                        <h4>Show Orders</h4>
+                        <div class="box_right d-flex lms_block">
+                            <div class="serach_field_2">
+                                <div class="search_inner">
+                                    <form Active="#">
+                                        <div class="search_field">
+                                            <input type="text" placeholder="Search content here...">
+                                        </div>
+                                        <button type="submit"> <i class="ti-search"></i> </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="QA_table mb_30">
+
+                        <table class="table lms_table_active">
+                            <thead>
+                                <tr>
+                                    <th>@Html.DisplayNameFor(model => model.TotalAmount)</th>
+                                    <th>@Html.DisplayNameFor(model => model.Address)</th>
+                                    <th>@Html.DisplayNameFor(model => model.PhoneNumber)</th>
+                                    <th>@Html.DisplayNameFor(model => model.Date)</th>
+                                    <th>@Html.DisplayNameFor(model => model.CustomerName)</th>
+                                    <th>@Html.DisplayNameFor(model => model.User)</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(modelItem => item.TotalAmount)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Date)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.CustomerName)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.User.Name)</td>
+                                        <td>@item.OrderStatus</td>
+                                        <td>
+                                            @if (item.OrderStatus == "Pending")
+                                            {
+                                                <a asp-action="UpdateOrderStatus" asp-route-id="@item.Id" asp-route-status="Approved" class="btn btn-success status_btn2 text-center">
+                                                    <i class="fas fa-check"></i> Approve
+                                                </a>
+                                                <a asp-action="UpdateOrderStatus" asp-route-id="@item.Id" asp-route-status="Rejected" class="btn btn-danger status_btn2 text-center">
+                                                    <i class="fas fa-times"></i> Reject
+                                                </a>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        <style>
+                            .status_btn2 {
+                                border-radius: 30px;
+                                color: white !important;
+                                font-size: 10px;
+                                height: 35px;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Admin/vendors/datatable/js/jquery.dataTables.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/dataTables.responsive.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/dataTables.buttons.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.flash.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/jszip.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/pdfmake.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/vfs_fonts.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.html5.min.js"></script>
+<script src="~/Admin/vendors/datatable/js/buttons.print.min.js"></script>
+<script src="~/Admin/js/chart.min.js"></script>

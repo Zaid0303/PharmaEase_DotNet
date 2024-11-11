@@ -28,68 +28,67 @@ namespace DotNet_Project.Controllers
         [HttpPost]
         public IActionResult Login(Login lg)
         {
+            ViewBag.a = lg.Email;  // This will display the Email or Name for debugging
+            ViewBag.c = lg.Password;
+
             ClaimsIdentity identity = null;
             bool isAuthenticated = false;
 
-            //string fpass = HashPassword(lg.Password);
+            string fpass = HashPassword(lg.Password);
+            string namee = lg.Name;
+            string email = lg.Email;
+            string password = fpass;  // Hashed password
 
-            var res = db.Logins.FirstOrDefault(x =>  x.Email == lg.Email && x.Password == lg.Password);
+            // Check if the user exists with either Email or Name
+            var res = db.Logins.FirstOrDefault(x => (x.Email == email || x.Name == namee) && x.Password == password);
 
             if (res != null)
             {
-                if (res.RoleId == 1)
+                // Create the identity for the user based on their RoleId
+                if (res.RoleId == 1) // Admin
                 {
-
-                    //Create the identity for the user
                     identity = new ClaimsIdentity(new[] {
-                    new Claim(ClaimTypes.Sid, res.Id.ToString()),
-                    new Claim(ClaimTypes.Email, lg.Email),
-                    new Claim(ClaimTypes.Role, "Admin")
-                }, CookieAuthenticationDefaults.AuthenticationScheme);
+                new Claim(ClaimTypes.Sid, res.Id.ToString()),
+                new Claim(ClaimTypes.Name, res.Name),  // User's name
+                new Claim(ClaimTypes.Email, res.Email),  // User's email
+                new Claim(ClaimTypes.Role, "Admin")
+            }, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                    isAuthenticated = true;
+                }
+                else if (res.RoleId == 2) // User
+                {
+                    identity = new ClaimsIdentity(new[] {
+                new Claim(ClaimTypes.Sid, res.Id.ToString()),
+                new Claim(ClaimTypes.Name, res.Name),
+                new Claim(ClaimTypes.Email, res.Email),
+                new Claim(ClaimTypes.Role, "User")
+            }, CookieAuthenticationDefaults.AuthenticationScheme);
 
                     isAuthenticated = true;
                 }
 
-                if (res.RoleId == 2)
-                {
-                    //Create the identity for the user
-                    identity = new ClaimsIdentity(new[] {
-                    new Claim(ClaimTypes.Sid, res.Id.ToString()),
-                    new Claim(ClaimTypes.Email, lg.Email),
-                    new Claim(ClaimTypes.Role, "User")
-                }, CookieAuthenticationDefaults.AuthenticationScheme);
-
-                    isAuthenticated = true;
-                }
-
-
-                if (isAuthenticated && res.RoleId == 1)
+                // Handle redirection after successful authentication
+                if (isAuthenticated)
                 {
                     var principal = new ClaimsPrincipal(identity);
-
                     HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-                    return RedirectToAction("Index", "Home");
+                    if (res.RoleId == 1)
+                        return RedirectToAction("Index", "Admin"); // Admin-specific page
+
+                    if (res.RoleId == 2)
+                        return RedirectToAction("Index", "User"); // User-specific page
                 }
-                if (isAuthenticated && res.RoleId == 2)
-                {
-                    var principal = new ClaimsPrincipal(identity);
-
-                    HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-
-                    return RedirectToAction("Index", "User");
-                }
-
-
             }
-
             else
             {
-                return Content("Wrong email and password");
-
+                return Content("Wrong email/name or password");
             }
+
             return View();
         }
+
 
         public IActionResult Logout()
         {
@@ -115,10 +114,10 @@ namespace DotNet_Project.Controllers
                 {
                     lg.RoleId = 2;
 
-                    lg.Password = HashPassword(lg.Password);
+                    lg.Password = lg.Password;
                     db.Logins.Add(lg);
                     db.SaveChanges();
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Login", "Cookies");
 
                 }
                 else

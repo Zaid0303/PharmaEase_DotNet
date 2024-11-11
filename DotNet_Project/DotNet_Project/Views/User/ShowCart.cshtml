@@ -1,0 +1,229 @@
+﻿@model IEnumerable<DotNet_Project.Models.Cart>
+
+@{
+    ViewData["Title"] = "ShowCart";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<div class="cart-page  section-padding">
+    <div class="container">
+        <div class="main-cart mb-3 mb-md-5 pb-0 pb-md-5">
+            <ul class="cart-page-items d-flex justify-content-center list-inline align-items-center gap-3 gap-md-5 flex-wrap">
+                <li class="cart-page-item active">
+                    <span class="cart-pre-heading badge cart-pre-number bg-primary border-radius rounded-circle me-1">
+                        1
+                    </span>
+                    <span class="cart-page-link ">
+                        Shopping Cart
+                    </span>
+                </li>
+                <li>
+                    <svg width="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
+                              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                        <path d="M10.5576 15.4709L14.0436 11.9999L10.5576 8.52895" stroke="currentColor"
+                              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </li>
+                <li>
+                    <span class=" cart-pre-number bg-light border-radius rounded-circle me-1">
+                        2
+                    </span>
+                    <span class="cart-page-link ">
+                        Checkout
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="table-responsive">
+            <table class="table cart-table">
+                <thead class="border-bottom">
+                    <tr>
+                        <th scope="col" class="fw-bold fs-5 text-primary"></th>
+                        <th scope="col" class="fw-bold fs-5 text-primary">Product</th>
+                        <th scope="col" class="fw-bold fs-5 text-primary">Price</th>
+                        <th scope="col" class="fw-bold fs-5 text-primary">Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   @foreach (var item in Model)
+                   {
+                    <tr data-item="list">
+                        <td>
+                            <form method="POST" asp-action="cartDelete">
+                                <input type="hidden" value="@item.Id" name="ij" />
+                                <button class="btn btn-icon btn-danger btn-sm delete-btn bg-transparent text-primary border-0">
+                                    <span class="btn-inner">
+                                        <i class="fas fa-times"></i>
+                                    </span>
+                                </button>
+                            </form>
+                        </td>
+                        <td>
+                            <div class="product-thumbnail">
+                                <a class="d-block mb-2">
+                                        <img class="avatar-80" src="@Url.Content(item.Pro.Image)" alt="">
+                                </a>
+                                    <span class="mt-2 text-primary">@Html.DisplayFor(modelItem => item.Pro.Name)</span>
+                            </div>
+                        </td>
+                        <td>
+                                <span class="fs-5 fw-500">PKR - @Html.DisplayFor(modelItem => item.Proprice)</span>
+                        </td>
+                        <td>
+                            <div class="btn-group iq-qty-btn" data-qty="btn" role="group">
+                                    <form method="post" asp-action="cartEdit">
+                                        <input type="number" value="@item.Qty" name="qq" min="1" max="@item.Pro.Quantity" />
+
+                                        <input type="hidden" value="@item.Id" name="ii" />
+                                        <input type="submit" value="Update" class="btn btn-danger" />
+
+                                    </form>
+                            </div>
+                        </td>
+                    </tr>
+
+                   }
+                </tbody>
+                @TempData["min"]
+            </table>
+        </div>
+
+        <div class="cart_totals p-5 bg-primary-subtle">
+            <h5 class="mb-3">Cart Totals</h5>
+            <div class="css_prefix-woocommerce-cart-box table-responsive">
+                <table class="table  border">
+                    <tbody>
+                        @if (@ViewBag.Total != null)
+                        {
+                        <tr class="order-total">
+                            <th class="border-0">
+                                <strong>
+                                    <span class="fs-5 text-dark"> Total </span>
+                                </strong>
+                            </th>
+                            <td class="border-0">
+                                <span class="fs-5 text-primary">PKR - @ViewBag.Total</span>
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="button-primary">
+                    <div class="iq-btn-container">
+                        <a class="iq-button text-capitalize" asp-action="Checkout" asp-controller="User">
+                            <span class="iq-btn-text-holder position-relative">Proceed to checkout</span>
+                            <span class="iq-btn-icon-holder">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 8"
+                                     fill="none">
+                                    <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
+                                          fill="currentColor"></path>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* 
+<style>
+
+    .btn btn-info {
+        margin-top: 50px;
+    }
+
+
+    .table{
+        margin-top:12%;
+    }
+
+</style> *@
+
+
+
+
+
+@* <table class="table">
+    <thead>W
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Pro.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pro.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Proprice)
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Qty)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    <img src="@Url.Content(item.Pro.Image)" alt="Random" width="90" height="90">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pro.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Proprice)
+                </td>
+                <td>
+                    <form method="post" asp-action="cartEdit">
+                        <input type="number" value="@item.Qty" name="qq" min="1" max="@item.Pro.Quantity" />
+
+                        <input type="hidden" value="@item.Id" name="ii" />
+                        <input type="submit" value="Update" class="btn btn-danger" />
+
+                    </form>
+                </td>
+                <td>
+                    <form method="POST" asp-action="cartDelete">
+                        <input type="hidden" value="@item.Id" name="ij" />
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+        }
+
+    <td>
+        @if (@ViewBag.Total != null)
+        {
+            <h6>Total: @ViewBag.Total</h6>
+        }
+
+    </td>
+
+
+
+
+
+
+
+    </tbody>
+
+
+
+
+
+    @TempData["min"]
+
+
+</table>
+
+
+<a  asp-action="Checkout" asp-controller="User" class="btn btn-info">Checkout</a> *@
