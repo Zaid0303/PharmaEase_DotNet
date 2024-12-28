@@ -29,17 +29,37 @@
                             </li>
                         </div>
                         <div class="profile_info">
-                            <img src="~/Admin/img/client_img.png" alt="#">
-                            <div class="profile_info_iner">
-                                <p>Admin</p>
-                                <h5>Dr. Robar Smith</h5>
-                                <div class="profile_info_details">
-                                    <a href="#">My Profile <i class="ti-user"></i></a>
-                                    <a href="#">Settings <i class="ti-settings"></i></a>
-                                    <a asp-action="Logout" asp-controller="Cookies">Log Out <i class="ti-shift-left"></i></a>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <!-- Display admin's name dynamically -->
+                                <img src="~/Admin/img/client_img.png" alt="Admin Profile">
+
+                                <div class="profile_info_iner">
+                                    <p>Admin</p>
+                                    <!-- Display admin's name dynamically -->
+                                    <h5>@User.Identity.Name</h5>
+                                    <div class="profile_info_details">
+                                        <a href="/User/Profile">My Profile <i class="ti-user"></i></a>
+                                        <a href="/Settings">Settings <i class="ti-settings"></i></a>
+                                        <a asp-action="Logout" asp-controller="Cookies">Log Out <i class="ti-shift-left"></i></a>
+                                    </div>
                                 </div>
-                            </div>
+                            }
+                            else
+                            {
+                                <!-- Default profile image and guest name when admin is not logged in -->
+                                <img src="~/Admin/img/client_img.png" alt="Default Profile">
+
+                                <div class="profile_info_iner">
+                                    <p>Admin</p>
+                                    <h5>Guest</h5>
+                                    <div class="profile_info_details">
+                                        <a href="/Cookies/Login">Login <i class="ti-user"></i></a>
+                                    </div>
+                                </div>
+                            }
                         </div>
+
                     </div>
                 </div>
             </div>

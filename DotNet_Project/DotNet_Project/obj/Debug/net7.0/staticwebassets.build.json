@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rQFRbC140GHpoTjtU9wws/CSYVTSne8w6sG6oFqPcjw=",
+  "Hash": "yZkE5DAWIOABqzpYQJ9YijTnfY/G6CumZecvrSx0J+o=",
   "Source": "DotNet_Project",
   "BasePath": "_content/DotNet_Project",
   "Mode": "Default",
@@ -2810,6 +2810,25 @@
       "OriginalItemSpec": "wwwroot\\Image\\Pro_img\\capsule4.png"
     },
     {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\Hifusin.jpeg",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Pro_img/Hifusin.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Pro_img\\Hifusin.jpeg"
+    },
+    {
       "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\injection1.png",
       "SourceId": "DotNet_Project",
       "SourceType": "Discovered",
@@ -2846,6 +2865,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\Pro_img\\injection2.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\liquid 5.png",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Pro_img/liquid 5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Pro_img\\liquid 5.png"
     },
     {
       "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\liquid1.png",
@@ -2941,6 +2979,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\Pro_img\\tablet3.png"
+    },
+    {
+      "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\Tenormin-25mg.jpeg",
+      "SourceId": "DotNet_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\",
+      "BasePath": "_content/DotNet_Project",
+      "RelativePath": "Image/Pro_img/Tenormin-25mg.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Pro_img\\Tenormin-25mg.jpeg"
     },
     {
       "Identity": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\js\\site.js",

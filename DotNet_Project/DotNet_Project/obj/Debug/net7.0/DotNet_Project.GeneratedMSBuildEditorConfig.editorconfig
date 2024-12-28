@@ -150,6 +150,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/cartEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxjYXJ0RWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -184,6 +188,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/ProDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/Quote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxRdW90ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Github Desktop/PharmaEase_DotNet/DotNet_Project/DotNet_Project/Views/User/ShowCart.cshtml]

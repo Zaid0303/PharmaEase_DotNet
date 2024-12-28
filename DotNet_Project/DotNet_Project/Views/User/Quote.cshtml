@@ -1,7 +1,7 @@
-﻿@model DotNet_Project.Models.Contact
+﻿@model DotNet_Project.Models.Quote
 
 @{
-    ViewData["Title"] = "Contact";
+    ViewData["Title"] = "Quote";
     Layout = "~/Views/Shared/_Layout1.cshtml";
 }
 <!-- Library / Plugin Css Build -->
@@ -42,16 +42,13 @@
 <div class="section-padding">
     <div class="container text-center">
         <div class="iq-title-box">
-            <span class="iq-subtitle text-uppercase">JUST A CALL AWAY</span>
+            <span class="iq-subtitle text-uppercase">FEEDBACK</span>
             <h2 class="iq-title iq-heading-title">
-                <span class="right-text text-capitalize fw-500">We'd love to</span>
-                <span class="left-text text-capitalize fw-light">hear from you!</span>
+                <span class="right-text text-capitalize fw-500">Our Website</span>
+                <span class="left-text text-capitalize fw-light">Feedback</span>
             </h2>
-            <p class="iq-title-desc text-body mt-3 mb-0">
-                We are here and always ready to help you. Let us know how we serve
-                you and we’ll get back within no time.
-            </p>
-        </div>      
+        </div>
+
         <div class="row">
             <div class="col-lg-2 d-lg-block d-none"></div>
             <div class="col-lg-8">
@@ -61,41 +58,44 @@
                         @ViewBag.Message
                     </div>
                 }
-                <form asp-action="Contact">
+                <form asp-action="Quote">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <!-- Name -->
+                        <div class="col-lg-12 mb-3">
                             <div class="custom-form-field">
-                                <input type="text" asp-for="FName" name="fname" placeholder="Your Name" class="form-control mb-5"
-                                       required>
-                                <span asp-validation-for="FName" class="text-danger"></span>
+                            <input type="text" asp-for="Name" name="name" placeholder="Your Name" class="form-control" required>
+                            <span asp-validation-for="Name" class="text-danger"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="custom-form-field">
-                                <input type="text" asp-for="LName" name="lname" placeholder="Last Name" class="form-control mb-5"
-                                       required>
-                                <span asp-validation-for="LName" class="text-danger"></span>
+                                <input type="text" asp-for="Address" name="address" placeholder="Your Address" class="form-control  mb-5" required>
+                                <span asp-validation-for="Address" class="text-danger"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="custom-form-field">
-                                <input type="tel" asp-for="Number" name="phone" minlength="11" maxlength="140" placeholder="Phone Number"
-                                       class="form-control mb-5" required>
-                                <span asp-validation-for="Number" class="text-danger"></span>
+                                <input type="text" asp-for="Country" name="country" placeholder="Your Country" class="form-control  mb-5" required>
+                                <span asp-validation-for="Country" class="text-danger"></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="custom-form-field">
-                                <input type="email" asp-for="Email" name="email" placeholder="Your Email" class="form-control mb-5"
+                                <input type="text" asp-for="City" name="city" placeholder="Your City" class="form-control  mb-5" required>
+                                <span asp-validation-for="City" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="custom-form-field">
+                                <input type="email" asp-for="Email" name="email" placeholder="Your Email" class="form-control  mb-5"
                                        required>
                                 <span asp-validation-for="Email" class="text-danger"></span>
                             </div>
                         </div>
                         <div class="col-lg-12">
                             <div class="custom-form-field">
-                                <textarea name="message" asp-for="Message" placeholder="Your Message" class="form-control mb-5"
-                                          required></textarea>
-                                <span asp-validation-for="Message" class="text-danger"></span>
+                                <textarea name="message" asp-for="Comments" placeholder="Your Message" class="form-control mb-5" required></textarea>
+                                <span asp-validation-for="Comments" class="text-danger"></span>
                             </div>
                         </div>
                         <div class="col-lg-12 text-start">
@@ -115,50 +115,10 @@
             </div>
             <div class="col-lg-2 d-lg-block d-none"></div>
         </div>
+
     </div>
 </div>
 
-<div class="text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <i class="fas fa-map-marker-alt text-secondary font-size-60 mb-5"></i>
-                <div class="iq-title-box mb-0">
-                    <span class="iq-subtitle text-uppercase">LOCATION</span>
-                    <h5 class="iq-title iq-heading-title mt-3">
-                        <span class="right-text text-capitalize">Gulshan e Jamal, Karachi</span>
-                    </h5>
-                </div>
-            </div>
-            <div class="col-md-4 mt-md-0 mt-5">
-                <i class="far fa-envelope text-secondary font-size-60 mb-5"></i>
-                <div class="iq-title-box mb-0">
-                    <span class="iq-subtitle text-uppercase">EMAIL</span>
-                    <h5 class="iq-title iq-heading-title mt-3">
-                        <span class="right-text text-capitalize">pharmaease03@gmail.com</span>
-                    </h5>
-                </div>
-            </div>
-            <div class="col-md-4 mt-md-0 mt-5">
-                <i class="fas fa-phone text-secondary font-size-60 mb-5"></i>
-                <div class="iq-title-box mb-0">
-                    <span class="iq-subtitle text-uppercase">CALL ANYTIME</span>
-                    <h5 class="iq-title iq-heading-title mt-3">
-                        <span class="right-text text-capitalize">+92 318 5897526</span>
-                    </h5>
-                </div>
-            </div>
-        </div>
-
-        <!-- Map Section -->
-        <div class="row mt-5">
-            <div class="col-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7238.070498605013!2d67.10862538758431!3d24.896779243442218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3393ccb6a5c2f%3A0x43c1cb54d51ae58a!2sGulshan%20e%20Jamal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1731248306867!5m2!1sen!2s"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <!-- Library Bundle Script -->

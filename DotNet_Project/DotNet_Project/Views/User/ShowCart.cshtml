@@ -4,6 +4,41 @@
     ViewData["Title"] = "ShowCart";
     Layout = "~/Views/Shared/_Layout1.cshtml";
 }
+<!-- Library / Plugin Css Build -->
+<link rel="stylesheet" href="~/User/assets/css/core/libs.min.css" />
+
+<!-- flaticon css -->
+<link rel="stylesheet" href="~/User/assets/vendor/flaticon/css/flaticon.css" />
+
+<!-- font-awesome css -->
+<link rel="stylesheet" href="~/User/assets/vendor/font-awesome/css/all.min.css" />
+
+
+<!-- Sweetlaert2 css -->
+<link rel="stylesheet" href="~/User/assets/vendor/sweetalert2/dist/sweetalert2.min.css" />
+
+<!-- NoUI Slider css -->
+<link rel="stylesheet" href="~/User/assets/vendor/noUiSilder/style/nouislider.min.css">
+
+
+<!-- Kivicare Design System Css -->
+<link rel="stylesheet" href="~/User/assets/css/kivicare.min5438.css?v=1.2.0" />
+
+<!-- Custom Css -->
+<link rel="stylesheet" href="~/User/assets/css/custom.min5438.css?v=1.2.0" />
+
+<!-- Rtl Css -->
+<link rel="stylesheet" href="~/User/assets/css/rtl.min5438.css?v=1.2.0" />
+
+<!-- Customizer Css -->
+<link rel="stylesheet" href="~/User/assets/css/customizer.min5438.css?v=1.2.0" />
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&amp;display=swap"
+      rel="stylesheet">
+
 <div class="cart-page  section-padding">
     <div class="container">
         <div class="main-cart mb-3 mb-md-5 pb-0 pb-md-5">
@@ -110,25 +145,83 @@
                         }
                     </tbody>
                 </table>
-                <div class="button-primary">
-                    <div class="iq-btn-container">
-                        <a class="iq-button text-capitalize" asp-action="Checkout" asp-controller="User">
-                            <span class="iq-btn-text-holder position-relative">Proceed to checkout</span>
-                            <span class="iq-btn-icon-holder">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 8"
-                                     fill="none">
-                                    <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z"
-                                          fill="currentColor"></path>
-                                </svg>
-                            </span>
-                        </a>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <!-- Agar user login hai -->
+                    <div class="button-primary">
+                        <div class="iq-btn-container">
+                            <a class="iq-button text-capitalize" asp-action="Checkout" asp-controller="User">
+                                <span class="iq-btn-text-holder position-relative">Proceed to checkout</span>
+                                <span class="iq-btn-icon-holder">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 8" fill="none">
+                                        <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
                     </div>
-                </div>
+                }
+                else
+                {
+                    <!-- Agar user login nahi hai -->
+                    <div class="button-primary">
+                        <div class="iq-btn-container">
+                            <a class="iq-button text-capitalize" asp-action="Login" asp-controller="Cookies">
+                                <span class="iq-btn-text-holder position-relative">Please login</span>
+                                <span class="iq-btn-icon-holder">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8 8" fill="none">
+                                        <path d="M7.32046 4.70834H4.74952V7.25698C4.74952 7.66734 4.41395 8 4 8C3.58605 8 3.25048 7.66734 3.25048 7.25698V4.70834H0.679545C0.293423 4.6687 0 4.34614 0 3.96132C0 3.5765 0.293423 3.25394 0.679545 3.21431H3.24242V0.673653C3.28241 0.290878 3.60778 0 3.99597 0C4.38416 0 4.70954 0.290878 4.74952 0.673653V3.21431H7.32046C7.70658 3.25394 8 3.5765 8 3.96132C8 4.34614 7.70658 4.6687 7.32046 4.70834Z" fill="currentColor"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                }
+
+
             </div>
         </div>
     </div>
 </div>
 
+
+<!-- Library Bundle Script -->
+<script src="~/User/assets/js/core/libs.min.js"></script>
+<!-- Plugin Scripts -->
+<!-- Slider-tab Script -->
+<script src="~/User/assets/js/plugins/slider-tabs.js"></script>
+
+<!-- fslightbox Script -->
+<script src="~/User/assets/js/plugins/fslightbox.js" defer></script>
+
+<!-- Sweet-alert Script -->
+<script src="~/User/assets/vendor/sweetalert2/dist/sweetalert2.min.js" async></script>
+<script src="~/User/assets/js/plugins/sweet-alert.js" defer></script>
+
+
+<!-- Select2 Script -->
+<script src="~/User/assets/js/plugins/select2.js" defer></script>
+
+<!-- NoUI Slider Script -->
+<script src="~/User/assets/vendor/noUiSilder/script/nouislider.min.js"></script>
+
+<!-- Lodash Utility -->
+<script src="~/User/assets/vendor/lodash/lodash.min.js"></script>
+<!-- Utilities Functions -->
+<script src="~/User/assets/js/iqonic-script/utility.min.js"></script>
+<!-- Settings Script -->
+<script src="~/User/assets/js/iqonic-script/setting.min.js"></script>
+<!-- Settings Init Script -->
+<script src="~/User/assets/js/iqonic-script/setting-init.js"></script>
+<!-- External Library Bundle Script -->
+<script src="~/User/assets/js/core/external.min.js"></script>
+<!-- Kivicare Script -->
+<script src="~/User/assets/js/kivicare5438.js?v=1.2.0" defer></script>
+<script src="~/User/assets/js/kivicare-advance5438.js?v=1.2.0" defer></script>
+<!-- Kivicare Pages Script -->
+<script src="~/User/assets/js/slider.js" defer></script>
+<script src="~/User/assets/js/scroll-text.js" defer></script>
 
 @* 
 <style>

@@ -1,11 +1,46 @@
-﻿
+﻿@model IEnumerable<DotNet_Project.Models.Product>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout1.cshtml";
 }
 
+<!-- Library / Plugin Css Build -->
+<link rel="stylesheet" href="~/User/assets/css/core/libs.min.css" />
+
+<!-- flaticon css -->
+<link rel="stylesheet" href="~/User/assets/vendor/flaticon/css/flaticon.css" />
+
+<!-- font-awesome css -->
+<link rel="stylesheet" href="~/User/assets/vendor/font-awesome/css/all.min.css" />
+
+
+<!-- Sweetlaert2 css -->
+<link rel="stylesheet" href="~/User/assets/vendor/sweetalert2/dist/sweetalert2.min.css" />
+
+<!-- NoUI Slider css -->
+<link rel="stylesheet" href="~/User/assets/vendor/noUiSilder/style/nouislider.min.css">
+
+
+<!-- Kivicare Design System Css -->
+<link rel="stylesheet" href="~/User/assets/css/kivicare.min5438.css?v=1.2.0" />
+
+<!-- Custom Css -->
+<link rel="stylesheet" href="~/User/assets/css/custom.min5438.css?v=1.2.0" />
+
+<!-- Rtl Css -->
+<link rel="stylesheet" href="~/User/assets/css/rtl.min5438.css?v=1.2.0" />
+
+<!-- Customizer Css -->
+<link rel="stylesheet" href="~/User/assets/css/customizer.min5438.css?v=1.2.0" />
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&amp;display=swap"
+      rel="stylesheet">
+
 <div class="product-home-banner section-padding bg-primary-subtle position-relative px-0 rtl-image-flip"
-     style="background-image: url('assets/images/product-home/product-home-banner.png'); background-repeat: no-repeat; background-position: top right;">
+     style="background-image:  url('@Url.Content("~/User/assets/images/product-home/product-home-banner.png")'); background-repeat: no-repeat; background-position: top right;">
     <div class="container-fluid h-100 rtl-image-flip-container">
         <div class="row align-items-center h-100">
             <div class="col-lg-5">
@@ -67,21 +102,21 @@
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
-
+                        @foreach (var item in Model)
+    {
                     <div class="col">
                         <div class="iq-product-box position-relative animate:hover-media">
                             <div class="iq-inner-box">
                                 <a href="shop-detail.html"></a>
                                 <div class="iq-product-image position-relative">
                                     <div class="animate:hover-media-wrap">
-                                        <img src="~/User/assets/images/shop/product-2.html" alt="icon"
+                                            <img src="@Html.DisplayFor(modelItem => item.Image)" alt="icon"
                                              class="img-fluid hover-media" loading="lazy">
                                     </div>
                                     <div class="iq-button-holder d-inline-block">
                                         <ul class="list-inline d-flex align-items-center gap-5 m-0 bg-white py-3 px-5">
                                             <li class="quick-view">
-                                                <a class="cursor-pointer" data-bs-toggle="modal"
-                                                   data-bs-target="#woosq-popup">
+                                                    <a class="cursor-pointer" asp-action="ProDetails" asp-route-id="@item.Id">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
                                                          viewBox="0 0 20 17" fill="none">
                                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -96,7 +131,7 @@
                                                 </a>
                                             </li>
                                             <li class="add-to-cart">
-                                                <a href="#" class="cart-btn">
+                                                    <a asp-action="cart" asp-controller="User" asp-route-id="@item.Id" class="cart-btn">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21"
                                                          viewBox="0 0 20 21" fill="none">
                                                         <path d="M0.750122 1.24988L2.83012 1.60988L3.79312 13.0829C3.87012 14.0199 4.65312 14.7389 5.59312 14.7359H16.5021C17.3991 14.7379 18.1601 14.0779 18.2871 13.1899L19.2361 6.63188C19.3421 5.89888 18.8331 5.21888 18.1011 5.11288C18.0371 5.10388 3.16412 5.09888 3.16412 5.09888"
@@ -120,18 +155,18 @@
                                     <span class="iq-on-new badge bg-primary">New</span>
                                 </div>
                                 <div class="product-caption text-center mt-3">
-                                    <span class="iq-category">Medical Equipment</span>
+                                        <span class="iq-category">@Html.DisplayFor(modelItem => item.CIdNavigation.Name)</span>
                                     <h5 class="product-title mt-1 mb-2">
-                                        <a href="product-standard.html">Medical Box</a>
+                                            <a asp-action="ProDetails" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Name)</a>
                                     </h5>
                                     <h6 class="price-value fw-semibold mb-2">
-                                        PKR - 92
+                                            PKR - @Html.DisplayFor(modelItem => item.Price)
                                     </h6>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+    }
                 </div>
             </div>
         </div>
@@ -142,7 +177,7 @@
         <div class="row gy-4">
             <div class="col-lg-6">
                 <div class="p-5 rtl-image-flip"
-                     style="background-image: url('assets/images/product-home/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                     style="background-image: url('@Url.Content("~/User/assets/images/product-home/banner.jpg")'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
                     <div class="p-lg-5 rtl-image-flip-container">
                         <div class="iq-title-box">
                             <span class="iq-subtitle text-uppercase">UPTO 50% OFF</span>
@@ -176,7 +211,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="p-5 rtl-image-flip"
-                     style="background-image: url('assets/images/product-home/banner2.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+                     style="background-image: url('@Url.Content("~/User/assets/images/product-home/banner2.jpg")'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
                     <div class="p-lg-5 rtl-image-flip-container">
                         <div class="iq-title-box">
                             <span class="iq-subtitle text-uppercase">Now & Never</span>
@@ -217,7 +252,7 @@
             <div class="container-fluid">
                 <div class="position-relative text-center">
                     <div class="scrolling-text position-absolute">
-                        <div class="iq-title text-uppercase">Latest Products</div>
+                        <div class="iq-title text-uppercase">Best selling Products</div>
                     </div>
                 </div>
                 <div class="text-center">
@@ -354,3 +389,39 @@
     </div>
 </div>
 
+<!-- Library Bundle Script -->
+<script src="~/User/assets/js/core/libs.min.js"></script>
+<!-- Plugin Scripts -->
+<!-- Slider-tab Script -->
+<script src="~/User/assets/js/plugins/slider-tabs.js"></script>
+
+<!-- fslightbox Script -->
+<script src="~/User/assets/js/plugins/fslightbox.js" defer></script>
+
+<!-- Sweet-alert Script -->
+<script src="~/User/assets/vendor/sweetalert2/dist/sweetalert2.min.js" async></script>
+<script src="~/User/assets/js/plugins/sweet-alert.js" defer></script>
+
+
+<!-- Select2 Script -->
+<script src="~/User/assets/js/plugins/select2.js" defer></script>
+
+<!-- NoUI Slider Script -->
+<script src="~/User/assets/vendor/noUiSilder/script/nouislider.min.js"></script>
+
+<!-- Lodash Utility -->
+<script src="~/User/assets/vendor/lodash/lodash.min.js"></script>
+<!-- Utilities Functions -->
+<script src="~/User/assets/js/iqonic-script/utility.min.js"></script>
+<!-- Settings Script -->
+<script src="~/User/assets/js/iqonic-script/setting.min.js"></script>
+<!-- Settings Init Script -->
+<script src="~/User/assets/js/iqonic-script/setting-init.js"></script>
+<!-- External Library Bundle Script -->
+<script src="~/User/assets/js/core/external.min.js"></script>
+<!-- Kivicare Script -->
+<script src="~/User/assets/js/kivicare5438.js?v=1.2.0" defer></script>
+<script src="~/User/assets/js/kivicare-advance5438.js?v=1.2.0" defer></script>
+<!-- Kivicare Pages Script -->
+<script src="~/User/assets/js/slider.js" defer></script>
+<script src="~/User/assets/js/scroll-text.js" defer></script>

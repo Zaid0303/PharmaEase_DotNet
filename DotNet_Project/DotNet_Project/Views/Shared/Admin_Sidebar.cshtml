@@ -4,7 +4,7 @@
 @{
     <nav class="sidebar">
         <div class="logo d-flex justify-content-between">
-            <a href="index.html"><img src="~/Admin/img/logo2.png" alt="logo" height="50"></a>
+            <a asp-action="Index" asp-controller="Admin"><img src="~/Admin/img/logo2.png" alt="logo" height="50"></a>
             <div class="sidebar_close_icon d-lg-none">
                 <i class="ti-close"></i>
             </div>
@@ -15,8 +15,7 @@
                 <span>Dashboard</span>
             </li>
             <li class="mm-active">
-                <a class="has-arrow" href="index.html" aria-expanded="false">
-                    <i class="fa fa-tachometer-alt"></i> <!-- Dashboard Icon -->
+                <a asp-action="Index" asp-controller="Admin" aria-expanded="false">
                     <span>Dashboard</span>
                 </a>
             </li>
@@ -124,13 +123,6 @@
                 <ul>
                     <li>
                         <a asp-action="ShowContact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                        <ul>
-                            <li><a href="progress.html">Add About</a></li>
-                            <li><a href="progress.html">View About</a></li>
-                        </ul>
                     </li>
                 </ul>
             </li>

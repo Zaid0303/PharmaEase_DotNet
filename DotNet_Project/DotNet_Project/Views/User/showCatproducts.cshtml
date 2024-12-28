@@ -215,6 +215,14 @@
                         </div>
                         <div class="tab-pane fade" id="pills-grid-two" role="tabpanel" aria-labelledby="grid-two-tab">
                             <div class="row row-cols-1 row-cols-sm-2">
+                                        @if (!Model.Any())
+        {
+            <div class="text-center">
+                <h5 class="text-muted mt-4">No results found</h5>
+            </div>
+        }
+        else
+        {
                                 @foreach (var item in Model)
                                 {
                                     <div class="col">
@@ -281,11 +289,20 @@
                                         </div>
                                     </div>
                                 }
+        }
                             </div>
                         </div>
                         <div class="tab-pane fade show active" id="pills-grid-three" role="tabpanel"
                              aria-labelledby="grid-three-tab">
                             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                                        @if (!Model.Any())
+        {
+            <div class="text-center">
+                <h5 class="text-muted mt-4">No results found</h5>
+            </div>
+        }
+        else
+        {
                                 @foreach (var item in Model)
                                 {
                                     <div class="col">
@@ -353,10 +370,19 @@
                                         </div>
                                     </div>
                                 }
+        }
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-grid-four" role="tabpanel" aria-labelledby="grid-four-tab">
                             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                                        @if (!Model.Any())
+        {
+            <div class="text-center">
+                <h5 class="text-muted mt-4">No results found</h5>
+            </div>
+        }
+        else
+        {
                                 @foreach (var item in Model)
                                 {
                                     <div class="col">
@@ -421,6 +447,7 @@
                                         </div>
                                     </div>
                                 }
+        }
                             </div>
                         </div>
                     </div>

@@ -569,8 +569,16 @@
       "PackagePath": "staticwebassets\\Image\\Job_img\\pharmacy Assistant.jpg"
     },
     {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\Hifusin.jpeg",
+      "PackagePath": "staticwebassets\\Image\\Pro_img\\Hifusin.jpeg"
+    },
+    {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\Stethoscope.jpeg",
       "PackagePath": "staticwebassets\\Image\\Pro_img\\Stethoscope.jpeg"
+    },
+    {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\Tenormin-25mg.jpeg",
+      "PackagePath": "staticwebassets\\Image\\Pro_img\\Tenormin-25mg.jpeg"
     },
     {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\capsule1.png",
@@ -587,6 +595,10 @@
     {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\injection2.png",
       "PackagePath": "staticwebassets\\Image\\Pro_img\\injection2.png"
+    },
+    {
+      "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\liquid 5.png",
+      "PackagePath": "staticwebassets\\Image\\Pro_img\\liquid 5.png"
     },
     {
       "Id": "C:\\Github Desktop\\PharmaEase_DotNet\\DotNet_Project\\DotNet_Project\\wwwroot\\Image\\Pro_img\\liquid1.png",

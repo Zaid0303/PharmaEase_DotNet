@@ -15,8 +15,17 @@ namespace DotNet_Project.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            // Fetch the latest 5 products
+            var latestProducts = db.Products
+                                   .OrderByDescending(p => p.Id) // Assuming higher Id means newer products
+                                   .Take(5)
+                                   .ToList();
+
+            return View(latestProducts);
+
         }
+
+
 
         public IActionResult About()
         {
@@ -463,49 +472,118 @@ namespace DotNet_Project.Controllers
 
         //-------- Contact End --------//
 
+        //-------- Quote Start --------//
+        [HttpGet]
+        public IActionResult Quote()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Quote(IFormCollection form)
+        {
+            try
+            {
+                // Extract form data using IFormCollection
+                var name = form["name"];
+                var email = form["email"];
+                var address = form["address"];
+                var country = form["country"];
+                var city = form["city"];
+                var message = form["message"];
+
+                // Save the data to the database
+                var quote = new Quote
+                {
+                    Name = name,
+                    Email = email,
+                    Address = address,
+                    Country = country,
+                    City = city,
+                    Comments = message // Assuming "Comments" is the column for storing the message
+                };
+
+                db.Quotes.Add(quote); // Adjusted to use the 'Quotes' table
+                db.SaveChanges();
+
+                // Email configuration
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
+                {
+                    EnableSsl = true,
+                    UseDefaultCredentials = false,
+                    Credentials = new NetworkCredential("pharmaease03@gmail.com", "cpeyztunyvumuupf")
+                };
+
+                // Prepare the email message
+                MailMessage msg = new MailMessage("pharmaease03@gmail.com", "pharmaease03@gmail.com") // Replace with admin's email
+                {
+                    Subject = "New Quote Form Submission",
+                    Body = $"Name: {name}\nEmail: {email}\nCountry: {country}\nCity: {city}\nMessage: {message}"
+                };
+
+                // Send the email
+                client.Send(msg);
+
+                ViewBag.Message = "Your quote was sent successfully!";
+                ViewBag.AlertType = "success"; // For success alert
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Message = "There was an error sending your quote. Please try again.";
+                ViewBag.AlertType = "danger"; // For error alert
+            }
+
+            return View();
+        }
+
+
+
+        //-------- Quote End --------//
+
 
         //---- User Profile Start ----//
-        //public IActionResult profile()
-        //{
+        public IActionResult Profile()
+        {
 
-        //    // Retrieve OrderDetails from DB
-        //    List<OrderDetail> orderDetail = db.OrderDetails.ToList();
-        //    List<Order> order = db.Orders.ToList();
-        //    List<Product> product = db.Products.ToList();
+            // Retrieve OrderDetails from DB
+            List<OrderDetail> orderDetail = db.OrderDetails.ToList();
+            List<Order> order = db.Orders.ToList();
+            List<Product> product = db.Products.ToList();
 
 
-        //    string abc = User.FindFirst(ClaimTypes.Sid)?.Value; ;
-        //    // Filter based on UserId. Order by date. Select and group by relevant columns.
-        //    IEnumerable<PurchasesViewModel> purchases =
-        //        from o in order
-        //        join od in orderDetail on o.Id equals od.OrderId
-        //        join p in product on od.ProId equals p.Id
-        //        where o.Userid == Convert.ToInt32(abc)
+            string abc = User.FindFirst(ClaimTypes.Sid)?.Value; ;
+            // Filter based on UserId. Order by date. Select and group by relevant columns.
+            IEnumerable<PurchasesViewModel> purchases =
+                from o in order
+                join od in orderDetail on o.Id equals od.OrderId
+                join p in product on od.ProId equals p.Id
+                where o.Userid == Convert.ToInt32(abc)
 
-        //        select new { o.Date, od.Id, p.Image, p.Name, p.Description, od.ProId } into y
-        //        group y by new { y.Image, y.Name, y.Description, y.ProId } into grp
-        //        select new PurchasesViewModel
-        //        {
+                select new { o.Date, od.Id, p.Image, p.Name, p.Description, p.Price, od.ProId } into y
+                group y by new { y.Image, y.Name, y.Description, y.Price, y.ProId } into grp
+                select new PurchasesViewModel
+                {
 
-        //            ImageLink = grp.Key.Image,
-        //            Name = grp.Key.Name,
-        //            Quantity = grp.Count(),
-        //            Description = grp.Key.Description,
+                    ImageLink = grp.Key.Image,
+                    Name = grp.Key.Name,
+                    Quantity = grp.Count(),
+                    Price = grp.Key.Price,
+                    Description = grp.Key.Description,
 
-        //            ProductId = (int)grp.Key.ProId
-        //        };
+                    ProductId = (int)grp.Key.ProId
+                };
 
-        //    if (purchases.ToList().Count == 0) // If no purchases, send info to View to display "no past purchases"
-        //    {
-        //        ViewData["HavePastOrders"] = false;
+            if (purchases.ToList().Count == 0) // If no purchases, send info to View to display "no past purchases"
+            {
+                ViewData["HavePastOrders"] = false;
 
-        //        return View();
-        //    }
+                return View();
+            }
 
-        //    ViewData["HavePastOrders"] = true;
+            ViewData["HavePastOrders"] = true;
 
-        //    return View(purchases.ToList());
-        //}
+            return View(purchases.ToList());
+        }
         //---- User Profile End ----//
 
 
